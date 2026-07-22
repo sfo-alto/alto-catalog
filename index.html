@@ -551,7 +551,7 @@ function renderArtists() {
     .map(a => `
       <div class="artist-card" id="${artistAnchorId(a.id, a.name)}">
         ${a.photo
-          ? `<img class="artist-photo" src="${a.photo}" alt="${escapeHtml(a.name)}">`
+          ? `<img class="artist-photo" src="data/${a.photo}" alt="${escapeHtml(a.name)}">`
           : `<div class="artist-photo artist-photo-placeholder">${escapeHtml(initials(a.name))}</div>`}
         <div class="artist-info">
           <div class="artist-name">${escapeHtml(a.name)}</div>
