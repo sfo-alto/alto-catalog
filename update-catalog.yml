@@ -1,0 +1,34 @@
+name: Update ALTO Catalog Data
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # hourly; adjust as needed (e.g. */30 * * * * for every 30 min)
+  workflow_dispatch:        # allows manual "Run workflow" trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch catalog data from Airtable
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+        run: node scripts/fetch-catalog.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/catalog.json data/photos
+          git diff --staged --quiet || git commit -m "Sync catalog data from Airtable [automated]"
+          git push
