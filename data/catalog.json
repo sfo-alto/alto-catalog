@@ -1,0 +1,759 @@
+{
+  "generatedAt": "2026-07-22T18:46:12.564Z",
+  "artists": [
+    {
+      "id": "rec0tmkEG7F8a1PJK",
+      "name": "Ivy Ross",
+      "artForm": "Music",
+      "bio": "Ivy Ross is devoted to a collaborative and creative vision of an emergent equitable world. She is a nationally recognized facilitator, musician, writer, and educator who addresses challenging social and environmental issues with compassion, critical thinking, playfulness, and flexibility, and she currently serves as the Director of Education for the Santa Fe Chamber Music Festival. She has served as consultant, facilitator, and performing artist for a multitude of organizations nationwide including: Children’s Defense Fund; Columbia Hospital For Women; Teachers & Writers Collaborative; Young Audiences; Children’s Cancer Association: MyMusicRX; the Anti-Defamation League, and The Boys & Girls Club. She is a certified Mindfulness Meditation Instructor, Hatha Yoga Teacher, Student Success Coach, and A World Of Difference Institute Trainer. Classroom teacher Emily Wahl says of Ivy, “She brings an attentive, gentle, cheerful, and patient attitude to teaching. It is clear that she finds inspiration in the responses of the children to the music, and gladly and adeptly incorporates their ideas. She is a joy to work with and the children respond with great affection and enjoyment to her sweet and fun style of teaching.”\n",
+      "photo": "photos/ivy-ross-8a1PJK.jpg"
+    },
+    {
+      "id": "recI5GNJ7IGTUu2eO",
+      "name": "Wendy Chapin",
+      "artForm": "Drama / Theater",
+      "bio": "Wendy Chapin is a theater artist who began teaching in the Santa Fe public schools in 2001 independently as a theater teacher, working with integrated arts for the Alto Program, and working for Artworks a Lincoln Center Program sponsored by Partners in Education. She has taught theater arts to all ages from 7-70 for 40 years. Wendy is a theater artist who believes in collaborating with teachers to find ways to embody learning as well as creating opportunities for students to develop empathy as part of their interpersonal and intrapersonal experiences inherent when using drama in combination with curricular areas of study. Wendy has a BA in theater and history from the University of Colorado and an MA in Art Therapy from Southwestern College. She worked in professional theater on and off Broadway for 11 years.\n",
+      "photo": "photos/wendy-chapin-TUu2eO.jpg"
+    },
+    {
+      "id": "recKqLeswgfy7cw44",
+      "name": "Liberty Yablon",
+      "artForm": "Visual Art: Drawing / Painting",
+      "bio": "Liberty Yablon is a sculptor, photographer and illustrator, born and raised in Santa Fe. She’s Also lived in Los Angeles where she worked in fashion design and film production. She loves to sew and design extravagant costumes. In downtime she crochets and loves time in nature. Before becoming a workshop leader with the Alto program, as well as ArtWorks, she taught art and theater full time for SFPS. She was an early member of art collective Meow Wolf and created immersive art experiences with them for 5 years. She’s passionate about teaching and loves working with students of all ages and backgrounds.\n",
+      "photo": "photos/liberty-yablon-y7cw44.jpg"
+    },
+    {
+      "id": "recSjglHcqb3FCdTZ",
+      "name": "Michelle Holdt",
+      "artForm": "Visual Art: Multimedia",
+      "bio": "Michelle Holdt is an enthusiastic arts integration specialist and leader with a strong commitment to leading an arts rich life and making creative practice available for all children. She has over 20 years experience in arts education as a drama teacher, professional development leader, and arts administrator in a wide variety of educational settings. She was the Arts and Restorative Learning Coordinator at the San Mateo County Office of Ed and holds a Masters and Credential in Educational Administration from San Francisco State University, an Art Integration Certificate with The Alliance for Arts Learning Leadership, a BA in Drama and Human Development from Harvard University, a Masters in Theatre and Dance from the University of New Mexico, and a clear K-8 multiple subject credential from New College of California in San Francisco.\n",
+      "photo": "photos/michelle-holdt-3FCdTZ.png"
+    },
+    {
+      "id": "recUP8ZJB3MhDdZKi",
+      "name": "Nancy Morris-Judd",
+      "artForm": "Visual Art: Multimedia",
+      "bio": "Nancy Morris-Judd is an experienced teaching artist who has been delivering arts integration residencies to K-12 students since 2015. She collaborates closely with teachers to design residencies that align with specific curriculum goals and State Standards, customizing each project to fit the needs of both educators and students. Nancy is committed to providing practical arts integration tools that teachers can continue to use after the residency ends. A key goal is to inspire students to take an active role in their learning by offering creative opportunities for self-expression. Nancy also strives to meet the diverse needs of students by providing multiple ways for them to learn and demonstrate their knowledge. In addition to visual arts, Nancy’s residencies often include movement, theater, and music, creating an engaging and enjoyable learning experience for both students and teachers. Nancy has an Elementary Teaching Certificate but loves to work with students of all ages.\n",
+      "photo": "photos/nancy-morris-judd-hDdZKi.png"
+    },
+    {
+      "id": "recWINmsmuzoEIRb6",
+      "name": "Delia St. Louis",
+      "artForm": "Visual Art: Multimedia",
+      "bio": "Delia St. Louis is an educator with a Master of Science in Education. She has classroom teaching experience dating back to 1999 in the New York City Public Schools and later starting in 2013 at Albuquerque Public Schools. She’s also the founder of Learning Without The Noise, a practice in which children learn tools and exercises that give them a unique advantage in learning and in life.\n",
+      "photo": "photos/delia-st-louis-oEIRb6.png"
+    },
+    {
+      "id": "recakSBljHNaAXUel",
+      "name": "Moira Garcia",
+      "artForm": "Visual Art: Drawing / Painting",
+      "bio": "Moira Garcia is a visual artist and bilingual educator. She is a New Mexico native and has worked in Santa Fe schools for over a decade. She holds a BFA in Studio Arts with a focus in Printmaking from the Institute of American Indian Arts, and a MA in Latin American Studies with concentrations in Art History and Indigenous Studies from the University of New Mexico. Her artwork is a visual language of symbol, color, and metaphor that often references and interprets ancient culture and cosmologies. As an educator, Moira is dedicated to meeting the needs of each student and guiding the expression of their unique and creative genius.\n",
+      "photo": "photos/moira-garcia-aAXUel.jpg"
+    },
+    {
+      "id": "recsGPbtNI66CWkx5",
+      "name": "Darryl Lorenzo Wellington",
+      "artForm": "Poetry / Creative Writing",
+      "bio": "Darryl Lorenzo Wellington is the 2021-2023 Poet Laureate of Santa Fe, NM. He also writes a syndicated editorial column for The Progressive Media Project. Since 2016, he has been a Writing/Communications Fellow with Center for Community Change, a Washington DC-based organization that supports low-income people of color. Last year, he presented talks and workshops on poetry at over fifteen Santa Fe elementary, middle and high schools.\n",
+      "photo": "photos/darryl-lorenzo-wellington-6CWkx5.jpg"
+    },
+    {
+      "id": "recuQdTxEE57EI1Qw",
+      "name": "Kathleen Kingsley",
+      "artForm": "Dance / Choreography",
+      "bio": "Kathleen Kingsley is a dancer/choreographer/dance educator. As co-founder of City in Motion Dance Theater in Kansas City, Missouri, she choreographed for and danced with the resident company, as well as working as an artist in education with Kansas City Young Audiences. She also initiated the first of four children’s dance theaters. She is a graduate of Anne Green Gilbert’s Summer Teacher Institute in creative dance. Her work in dance straddles both the teaching artist and school educator roles. As co-founder of the Río Gallinas School for Ecology and the Arts in Las Vegas, New Mexico she developed and taught the dance curriculum for grades 1-8. She established the dance department at the United World College of the American West (UWC-USA) and developed their International Baccalaureate Degree Program dance curriculum. She holds a Bachelor of Arts degree in Latin American studies. Currently Kathleen is co-founder and executive artistic director of MoveWest Center for Movement Exploration in Santa Fe and serves as ALTO’s residency program coordinator.\n",
+      "photo": "photos/kathleen-kingsley-7EI1Qw.png"
+    },
+    {
+      "id": "recuQkrZKtphhJlr4",
+      "name": "Randy Barron",
+      "artForm": "Dance / Choreography",
+      "bio": "Randy Barron brings over four decades of experience in arts and education. Since beginning his teaching career in 1980, he has worked extensively across the United States and abroad, including a 26-year tenure as a touring Kennedy Center Teaching Artist (1995–2021). He has led hundreds of professional development workshops for educators and teaching artists in forty U.S. states and in Singapore.\nA professional dancer and choreographer, Randy performed with companies from Boston and New York City to the Midwest, and was a founding Artistic Director of City in Motion Dance Theater in Kansas City, Missouri. His leadership in the arts is matched by a wide-ranging commitment to education: he has served as a charter school founder, high school director, curriculum developer — and even a school bus driver.\nRandy holds a Bachelor of Science in Biology and has also served his community as a volunteer firefighter and EMT. In recognition of his contributions to arts education, he received the Coll Award of Distinction from the New Mexico Art Education Association.\n",
+      "photo": "photos/randy-barron-hhJlr4.png"
+    },
+    {
+      "id": "recundPRwlCDfHoza",
+      "name": "Beth Ratay",
+      "artForm": "Music",
+      "bio": "Beth Ratay is a versatile composer who is able to craft music using a wide variety of styles and techniques. From music possessed of a quiet, understated grace, to music based on mathematical concepts, to emotive and hilarious opera, Ratay’s music is engaging, charming and beautiful. Dr. Ratay has had her music performed by diverse ensembles from across the United States. Her studies on the relationship of text to music in the work of Leoš Janáček and symmetric or layered musical structures in the music of Harrison Birtwistle strongly informs her own compositions. Beth also has been teaching music to people of all ages for over 25 years. Her experience includes individual instrumental and compositional instruction, music fundamentals and general education music courses for adults, and music basics for kids for all ages. Beth believes that learning music teaches many important and fundamental skills including social/emotional skills, math skills, and problem solving skills.\n",
+      "photo": "photos/beth-ratay-DfHoza.jpg"
+    }
+  ],
+  "residencies": [
+    {
+      "id": "rec0JEYsTr1bVeP5T",
+      "title": "Breathing Life into Literature",
+      "isNew": false,
+      "description": "Literary text can be daunting to young readers, who may find the conventions of fiction difficult going. In this residency, students will use the theater strategies of tableau and improvisation to create dialogue  for a written script based on the chosen narrative from an appropriate literary work for their grade level (Myth, fable, fairy tale or even a chapter from a book) to create a written script. Groups of 4 to 5 students will engage a part of one narrative in order to create dialogue for that part  Then we can also cast  our play and perform it for another class as a reading. Through this deep exploration of meaning and story, children learn to find joy in text.",
+      "teachingArtist": {
+        "id": "recI5GNJ7IGTUu2eO",
+        "name": "Wendy Chapin"
+      },
+      "gradeLevel": "3-6",
+      "artForms": [
+        "Drama / Theater"
+      ],
+      "curriculumAreas": [
+        "Language Arts"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "rec1fcfYEzKiz2GPG",
+      "title": "Identity Investigation: An Exploration of Self and Community",
+      "isNew": false,
+      "description": "In this residency, students will explore self and community using \"arts based research.\" The residency begins with students building and constructing an \"artful journal\" with recycled materials and found paper ephemera. The journals then become a place to document their research on identity that ties to grade level appropriate NM social studies standards. Students will also experience a handful of scaffolded creative practices such as found word poetry, blind contour drawing, collage, and practice interviews that will support their arts based research. Students creatively record all of their key findings  in their journals, and in closing share them with each other in class.",
+      "teachingArtist": {
+        "id": "recSjglHcqb3FCdTZ",
+        "name": "Michelle Holdt"
+      },
+      "gradeLevel": "3-6",
+      "artForms": [
+        "Visual Art: Multimedia"
+      ],
+      "curriculumAreas": [
+        "Social-Emotional Learning",
+        "Social Studies",
+        "Language Arts"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "rec3X1oET5r505O2K",
+      "title": "Cosmic Calendars: Charting Sun, Moon, and Seasons",
+      "isNew": false,
+      "description": "Students learn about celestial tracking of the sun, moon, and seasons, and the origins of the Western calendar as it relates to our solar system. With colored papers and mixed-media collage, students will create a giant calendar wheel of the four seasons and moon cycles while exploring the artist’s tools of color, geometry, and composition. Through classroom activities and the artistic practice, students will understand celestial patterns and develop a greater awareness of our relationship to the cosmos and how nature’s rhythms govern our experience of time. Artist educator Moira Garcia leads this exploration which aims to inspire wonder and creativity in the ways we observe and engage with the natural world and ourselves. ",
+      "teachingArtist": {
+        "id": "recakSBljHNaAXUel",
+        "name": "Moira Garcia"
+      },
+      "gradeLevel": "4-6",
+      "artForms": [
+        "Visual Art: Collage, Mixed Media"
+      ],
+      "curriculumAreas": [
+        "Space Science"
+      ],
+      "sessions": 8,
+      "anchorId": ""
+    },
+    {
+      "id": "rec4QmCxbTG3ak2gL",
+      "title": "Creative Movement Skill-Building",
+      "isNew": false,
+      "description": "Research has shown without a doubt that physical movement is essential for brain development and learning.  Based on the dance elements of Body, Energy, Space and Time (BEST), BrainDance, and on Anne’s lesson plan format, this residency is an introduction to movement skill-building strategies for the district’s youngest students. Sessions include both somatic awareness techniques and creative dance activities exploring patterns, pathways, musical prompts, and stories. Kathleen will supply teachers with the lesson plan and teachers are encouraged to repeat parts of the lesson in between residency days.",
+      "teachingArtist": {
+        "id": "recuQdTxEE57EI1Qw",
+        "name": "Kathleen Kingsley"
+      },
+      "gradeLevel": " Pre-K",
+      "artForms": [
+        "Movement"
+      ],
+      "curriculumAreas": [
+        "Social-Emotional Learning"
+      ],
+      "sessions": 6,
+      "anchorId": ""
+    },
+    {
+      "id": "rec5ajVFQK4B2fKJn",
+      "title": "Finding the Math in Musical Patterns (Pre-K)",
+      "isNew": false,
+      "description": "By identifying and creating musical patterns, students connect with basic mathematical concepts in an entirely new way, cementing a greater, longer lasting understanding of patterns and how they shape our world. Students will identify patterns in familiar songs, and create and share simple patterns using body percussion.  Dr. Ratay guides students through this creative process, while demonstrating how mathematics and music intertwine to create patterns pleasing to the mind and the ear alike. ",
+      "teachingArtist": {
+        "id": "recundPRwlCDfHoza",
+        "name": "Beth Ratay"
+      },
+      "gradeLevel": " Pre-K",
+      "artForms": [
+        "Music",
+        "Movement"
+      ],
+      "curriculumAreas": [
+        "Mathematics"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "rec6P2hBby79y65pf",
+      "title": "Wind and Water Carve New Mexico (RB)",
+      "isNew": true,
+      "description": "How did Ship Rock come to be? What are the Tent Rocks made of? How was Glorieta Mesa formed? In this residency students choreograph living landscapes, embodying the powerful force that wind and water played and continue to play in carving and shaping our state. This is an integrated dance/ science literacy residency for 4th-5th grades focused on sequencing and visualizing the forces of wind and water and their geographic implications for New Mexico. Students collaboratively translate the story of erosion in New Mexico into a dance “text” through the creative process of choreography.",
+      "teachingArtist": {
+        "id": "recuQkrZKtphhJlr4",
+        "name": "Randy Barron"
+      },
+      "gradeLevel": "4-5",
+      "artForms": [
+        "Dance / Choreography"
+      ],
+      "curriculumAreas": [
+        "Earth Science",
+        "Language Arts"
+      ],
+      "sessions": 6,
+      "anchorId": ""
+    },
+    {
+      "id": "recAO2kGnNR6FK83w",
+      "title": "Look at That Flower!",
+      "isNew": false,
+      "description": "Making realistic drawings can seem like a scary task to the average 4th-grader, and many assume that it is a matter of elusive talent rather than a skill process that they can learn. In this residency, students will learn to closely observe plants and insects native to Northern New Mexico and beyond. They will apply a variety of drawing techniques to create realistic illustrations of their choices of flora and fauna. As they work to finish their final product, they will also reflect on their process and create a written artist’s statement explaining the scientific discoveries and artistic choices they made along the way. They may discover that Artists and Scientists are really very similar.",
+      "teachingArtist": {
+        "id": "recKqLeswgfy7cw44",
+        "name": "Liberty Yablon"
+      },
+      "gradeLevel": "4",
+      "artForms": [
+        "Visual Art: Drawing / Painting"
+      ],
+      "curriculumAreas": [
+        "Life Science"
+      ],
+      "sessions": 6,
+      "anchorId": ""
+    },
+    {
+      "id": "recAQCoNCye46sQqR",
+      "title": "ConteXt CodeX: Understanding Through Context",
+      "isNew": false,
+      "description": "Students often study events, texts, and ideas in isolation, missing the connections that make meaning clear. In this residency, students create accordion-fold codex books that help them explore how context—timelines, perspectives, related events—deepens understanding of any subject. Each codex features continuous pages for timelines and pockets for student-created inserts: maps, character analyses, thematic explorations, mini-zines, and personal reflections. Students organize and analyze information in ways that make sense to them, resulting in a personalized book that documents both their research and their thinking. By the end of the residency, every student completes a codex that demonstrates how understanding context helps us make sense of events, others, and ourselves more fully.\n\nPlanning Note: This residency works best when coordinated with an existing classroom unit. Students should have read a complete text or completed research on a topic before the first session. Nancy collaborates with teachers during planning to align the residency with curriculum goals while allowing students to choose specific topics within that frame.",
+      "teachingArtist": {
+        "id": "recUP8ZJB3MhDdZKi",
+        "name": "Nancy Morris-Judd"
+      },
+      "gradeLevel": "6-12",
+      "artForms": [
+        "Visual Art: Multimedia"
+      ],
+      "curriculumAreas": [
+        "Language Arts",
+        "Social Studies"
+      ],
+      "sessions": 8,
+      "anchorId": ""
+    },
+    {
+      "id": "recCDCQkU0BugGrTB",
+      "title": "Circles! In Art, Drama, Classroom, and Community",
+      "isNew": true,
+      "description": "In this residency, students will explore circles as a theme in both visual art, drama, and community circles. Students will engage in a set of scaffolded creative practices such as found circle poems, spiral drawings, simple mandalas as well as playing drama games in a circle, and will host community conversations and circles. Students will creatively record all of their sketches and artwork in their journals, and in closing share them with each other in class.",
+      "teachingArtist": {
+        "id": "recSjglHcqb3FCdTZ",
+        "name": "Michelle Holdt"
+      },
+      "gradeLevel": " Pre-K to 2",
+      "artForms": [
+        "Visual Art: Drawing / Painting",
+        "Drama / Theater"
+      ],
+      "curriculumAreas": [
+        "Social Studies",
+        "Social-Emotional Learning"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recGWpnGfB1rNT1h3",
+      "title": "The Music of Math and the Science of Sound",
+      "isNew": false,
+      "description": "In this residency, students will explore various ways that sound can be created, and how math and measurements work together to create multiple pitches on a single musical string (monochord). When students actively determine how sound and pitch work, they will make important scientific connections, while exercising their measurement, data collection and data organization skills. The exploration of the monochord also serves as an introduction to or review of fractional representation. After learning how a single string can be divided to create different pitches, students will create a short piece of music using the newly discovered properties of the monochord.",
+      "teachingArtist": {
+        "id": "recundPRwlCDfHoza",
+        "name": "Beth Ratay"
+      },
+      "gradeLevel": "4-6",
+      "artForms": [
+        "Music"
+      ],
+      "curriculumAreas": [
+        "Mathematics",
+        "Physical Science"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recIFrIKi2nOfXjmk",
+      "title": "Mathematics Gets the Blues",
+      "isNew": false,
+      "description": "Students will work together to write a blues song using the established lyric and musical pattern of that form. Along the way they will create and discover patterns and repetitions in groupings of 4, laying the foundations for addition and multiplication. By practicing these musical patterns within the metric framework, students will connect with these basic mathematical concepts in an entirely new way, cementing a greater, longer lasting understanding.",
+      "teachingArtist": {
+        "id": "recundPRwlCDfHoza",
+        "name": "Beth Ratay"
+      },
+      "gradeLevel": "1-3",
+      "artForms": [
+        "Music"
+      ],
+      "curriculumAreas": [
+        "Mathematics",
+        "Language Arts"
+      ],
+      "sessions": 6,
+      "anchorId": ""
+    },
+    {
+      "id": "recJGyvYXx23TM3aW",
+      "title": "Cosmogram: Mapping a Cosmic Identity",
+      "isNew": true,
+      "description": "Designed as a follow-up to Cosmic Calendars and for students with a primary foundation of astronomy and earth science. Using mixed-media and collage, students will translate their astronomical knowledge into a personal Cosmogram a.k.a. cosmic identity map. The Cosmogram will depict the phase and location of celestial bodies as well as the season and geography of the student's time of birth. Students will learn how to access and interpret the astronomy of their birth time and track the current moment. Guided by artist and astro enthusiast Moira Garcia, this residency will fortify and expand previous knowledge and cultivate a deeper relationship to the cosmos and personal identity.",
+      "teachingArtist": {
+        "id": "recakSBljHNaAXUel",
+        "name": "Moira Garcia"
+      },
+      "gradeLevel": "4-12",
+      "artForms": [
+        "Visual Art: Collage, Mixed Media"
+      ],
+      "curriculumAreas": [
+        "Space Science"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recKLyJrabetQ4ZNs",
+      "title": "The Passion Project, An Exploration of Self and Identity",
+      "isNew": false,
+      "description": "In this residency, students will explore a self-selected topic connected to their personal identity using \"experiential arts based research.\" The residency begins with students building and constructing an \"artful journal\" with recycled materials and found paper ephemera. The journals then become a place to document their research on identity that ties to grade level appropriate NM ELA standards. Students will participate in a handful of scaffolded creative practices such as found word poetry, blind contour drawing, and practice interviews as they begin their research. The students will then research on their own using “non-screen based” modes of learning including but not limited to: interviewing experts, having an experience, reading a book, observational drawings, and MORE! All of their key takeaways are creatively recorded in their journals and shared with each other on final day of class.",
+      "teachingArtist": {
+        "id": "recSjglHcqb3FCdTZ",
+        "name": "Michelle Holdt"
+      },
+      "gradeLevel": "7-12",
+      "artForms": [
+        "Visual Art: Multimedia"
+      ],
+      "curriculumAreas": [
+        "Social Studies",
+        "Language Arts",
+        "Social-Emotional Learning"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recNl9rnIUrvSJdj0",
+      "title": "Shape-Shifting Geometry",
+      "isNew": false,
+      "description": "This experiential unit of study will explore and reinforce students’ understanding of two-dimensional shapes (circle, square, triangle, rectangle) and three-dimensional shapes (sphere, cube, pyramid). They will be creating these shapes with their bodies. First by drawing them on the ground using\ntheir classmates. Then for three dimensional shapes the students will be using their classmates again to create  sphere, cube, pyramid, cylinder and rectangular prism by standing them up. The third session the students will create three dimensional shapes to act out a short skit based  on a poem by Shel Silverstein poem called “Shapes”. ",
+      "teachingArtist": {
+        "id": "recI5GNJ7IGTUu2eO",
+        "name": "Wendy Chapin"
+      },
+      "gradeLevel": "2-3",
+      "artForms": [
+        "Drama / Theater",
+        "Movement"
+      ],
+      "curriculumAreas": [
+        "Mathematics",
+        "Language Arts"
+      ],
+      "sessions": 3,
+      "anchorId": ""
+    },
+    {
+      "id": "recP8LNoIZK0OEYWo",
+      "title": "Cosmic Calendars (Abbreviated)",
+      "isNew": true,
+      "description": "Shorter residencies focus on tracking time through understanding the lunar phases OR the four seasons. Students will work in groups to create a collaborative collage of the moon cycles and solar system OR a calendar wheel of the four seasons while exploring the artist’s tools of color, pattern, geometry, and composition. ",
+      "teachingArtist": {
+        "id": "recakSBljHNaAXUel",
+        "name": "Moira Garcia"
+      },
+      "gradeLevel": "4-6",
+      "artForms": [
+        "Visual Art: Collage, Mixed Media"
+      ],
+      "curriculumAreas": [
+        "Space Science"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recQHhp5Yj4Y22Kzz",
+      "title": "Math on the Move",
+      "isNew": false,
+      "description": "Many students feel frustrated when asked to master math skills without understanding the underlying concepts or how those skills connect to real life. This dynamic residency helps students explore numeracy, symbols, and geometry through collaborative choreography and creative movement. Using dance to represent mathematical ideas, students develop both individual and small-group movement studies that highlight the simple but powerful principles behind everyday math. Along the way, they engage in evaluation, editing, and revision—strengthening both their mathematical thinking and artistic expression.",
+      "teachingArtist": {
+        "id": "recuQkrZKtphhJlr4",
+        "name": "Randy Barron"
+      },
+      "gradeLevel": "3-5",
+      "artForms": [
+        "Dance / Choreography"
+      ],
+      "curriculumAreas": [
+        "Mathematics"
+      ],
+      "sessions": 6,
+      "anchorId": ""
+    },
+    {
+      "id": "recTmIjzkuRVBcd0T",
+      "title": "New Mexico Desert: Story of Sand",
+      "isNew": false,
+      "description": "This integrated dance/science literacy residency focuses on sequencing and embodying the rock cycle. Based loosely on a New Mexico 2nd grade science unit entitled “Pebbles, Sand and Silt: The Story of Sand”, students improvise dance phrases, embodying the changes over time that break down rocks to sand, and the roles that water and wind play in that process. The dance content is based on these naturally occurring events, with students creatively and collaboratively translating the essence of the story of sand into a dance “text.”",
+      "teachingArtist": {
+        "id": "recuQdTxEE57EI1Qw",
+        "name": "Kathleen Kingsley"
+      },
+      "gradeLevel": "2-3",
+      "artForms": [
+        "Dance / Choreography"
+      ],
+      "curriculumAreas": [
+        "Earth Science",
+        "Language Arts"
+      ],
+      "sessions": 8,
+      "anchorId": ""
+    },
+    {
+      "id": "recWEcFWQlGd677eu",
+      "title": "Exploring New Mexico History through Song",
+      "isNew": false,
+      "description": "When students create a piece of music about a historical subject, they greatly increase their comprehension of the subject, and gain important learning skills. In this residency, students will work together to create a corrido (ballad) about Rafael Chacón in the Battle of Valverde, or any important figure or event in New Mexican history. Dr. Beth Ratay, an experienced composer and scholar of world musics, leads this session, focusing on students’ ability to synthesize historical facts into a deeper understanding of how these events shape our collective and individual lives. ",
+      "teachingArtist": {
+        "id": "recundPRwlCDfHoza",
+        "name": "Beth Ratay"
+      },
+      "gradeLevel": "5-12",
+      "artForms": [
+        "Music"
+      ],
+      "curriculumAreas": [
+        "New Mexico History",
+        "Language Arts"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recX9H4FYc5e1CZVD",
+      "title": "Inner Compass",
+      "isNew": false,
+      "description": "Students often struggle with stresses that make it difficult for them to engage with learning in the classroom; practicing a creative process can help them find ease and calm within themselves, so they can focus on their studies. In this 5-session residency, students learn how to embody the practice of “Learning without the Noise.”  That “noise” can be other students’ behaviors, transitions from one activity to another, negative self-talk, frustration, or comparing self to others. Through movement, vocal expressions, art and daily rituals, students will develop an awareness of how capable they can be with managing their inner and outer environment. ",
+      "teachingArtist": {
+        "id": "recWINmsmuzoEIRb6",
+        "name": "Delia St. Louis"
+      },
+      "gradeLevel": " Pre-K to 2",
+      "artForms": [
+        "Visual Art: Collage, Mixed Media",
+        "Movement"
+      ],
+      "curriculumAreas": [
+        "Social-Emotional Learning"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recbTnO2mWXXQFm8s",
+      "title": "PE with the Brain in Mind",
+      "isNew": false,
+      "description": "“Movement is the architect of the brain” says dance educator Anne Green Gilbert. This residency is an introduction to movement skill-building strategies for elementary PE education. Based on the dance elements of Body, Energy, Space and Time, and Gilbert’s proven lesson plan format, this residency equips PE teachers with developmentally appropriate strategies to strengthen fundamental movement skills for early elementary students. In addition to emphasizing movement skills, students participate in cooperative group and self-awareness practices through creative movement activities.  Lessons are aligned with the New Mexico Physical Education standards for the targeted grade levels. ",
+      "teachingArtist": {
+        "id": "recuQdTxEE57EI1Qw",
+        "name": "Kathleen Kingsley"
+      },
+      "gradeLevel": " K-4",
+      "artForms": [
+        "Movement"
+      ],
+      "curriculumAreas": [
+        "Physical Education"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recbcUOpzeUecgbmz",
+      "title": "Poetry as Narrative Writing",
+      "isNew": false,
+      "description": "This engaging residency supports narrative writing standards by helping students craft compelling stories using poetic forms and conventions. Students learn to identify main ideas, develop coherent sequencing, and express their voices through structured yet creative writing. By blending elements of poetry and narrative, students explore both fictional and non-fictional storytelling, discovering how imagery, tone, and structure can deepen the impact of their narratives. The residency fosters inquiry, creativity, and reflection, while reinforcing essential writing skills such as organization, clarity, and revision.",
+      "teachingArtist": {
+        "id": "recsGPbtNI66CWkx5",
+        "name": "Darryl Lorenzo Wellington"
+      },
+      "gradeLevel": "3-12",
+      "artForms": [
+        "Poetry / Creative Writing"
+      ],
+      "curriculumAreas": [
+        "Language Arts"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recdIxNayuz6TDEg8",
+      "title": "Embodying Biography: Becoming a Person You Admire",
+      "isNew": false,
+      "description": "Students often struggle with biographies of characters from very different times and places. In this residency, students will use the Actor’s Tools of body movement, voice, and imagination to become the characters they are studying and then write a monologue they will perform as the character. The students can also focus on one character like Georgia O’Keeffe and tell her story by writing scenes that span each of the chapters in their life. The final presentation or performance can be staged in a format similar to a living museum or it can be a play with scenes that represent a part of the person’s journey through their life. Students and teachers find that this literally moving residency makes learning about history an engaging experience. ",
+      "teachingArtist": {
+        "id": "recI5GNJ7IGTUu2eO",
+        "name": "Wendy Chapin"
+      },
+      "gradeLevel": "5-6",
+      "artForms": [
+        "Drama / Theater"
+      ],
+      "curriculumAreas": [
+        "New Mexico History",
+        "Language Arts"
+      ],
+      "sessions": 8,
+      "anchorId": ""
+    },
+    {
+      "id": "recedf0dJEMtue64M",
+      "title": "Be Your Own Poet Laureate",
+      "isNew": false,
+      "description": "This five-session residency supports key writing standards by guiding students through reading, analysis, and the creation of original poetry. Students engage in close reading of diverse poems, develop critical thinking through discussion and peer critique, and build fluency in writing through multiple drafts of their own work. As they explore questions like “What makes something a poem?” and “Why does a metaphor work?”, students deepen their understanding of figurative language, voice, tone, and structure. They also practice revision and reflection—essential components of the writing process.",
+      "teachingArtist": {
+        "id": "recsGPbtNI66CWkx5",
+        "name": "Darryl Lorenzo Wellington"
+      },
+      "gradeLevel": "3-12",
+      "artForms": [
+        "Poetry / Creative Writing"
+      ],
+      "curriculumAreas": [
+        "Language Arts"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recgib0qCyO0gOH5h",
+      "title": "Embodying Biography: Walking in Another Person's Shoes",
+      "isNew": false,
+      "description": "Students often struggle with biographies of characters from very different times and places. In this residency, students will use the Actor’s Tools of body movement, voice, and imagination to become the characters they are studying and then write a monologue they will perform as the character. The students can also focus on one character like Georgia O’Keeffe and tell her story by writing scenes that span each of the chapters in her long life. The final presentation or performance can be staged in a format similar to a living museum or it can be a play with scenes that represent a part of the person’s journey through their life. Students and teachers find that this literally moving residency makes learning about history an engaging experience as well as being inspired by the lives of those who lived in the past. ",
+      "teachingArtist": {
+        "id": "recI5GNJ7IGTUu2eO",
+        "name": "Wendy Chapin"
+      },
+      "gradeLevel": "3-4",
+      "artForms": [
+        "Drama / Theater"
+      ],
+      "curriculumAreas": [
+        "New Mexico History",
+        "Language Arts"
+      ],
+      "sessions": 6,
+      "anchorId": ""
+    },
+    {
+      "id": "reckNu8QaQ6VVJtMh",
+      "title": "Loving Learning & Learning About Love in Handmade Gelli Printed Books",
+      "isNew": false,
+      "description": "Do your students struggle to engage with certain classroom curriculum? In this hands-on residency students will learn Gelli printing and build their own visual journals and then reflect on how they learn best. Using acrylic paints and Gelli Plates and different book building strategies students will learn to make a book that will truly become their own. Those books will hold notes from class discussions, scribbles, poetry, collage, drawings, and MORE! These journals will also hold student reflections on what they love about learning and how love itself is a powerful measure of engagement. At the end of the residency the class will share their journals full of ideas, sketches, plans, notes, and each student's highly individualized self-exploration and expression.",
+      "teachingArtist": {
+        "id": "recSjglHcqb3FCdTZ",
+        "name": "Michelle Holdt"
+      },
+      "gradeLevel": "4-8",
+      "artForms": [
+        "Visual Art: Multimedia"
+      ],
+      "curriculumAreas": [
+        "Social-Emotional Learning",
+        "Language Arts"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recky3OvpDvuJ7XJL",
+      "title": "El Agua es Vida: A Dive into New Mexico History",
+      "isNew": true,
+      "description": "What is an acequia? What is its cultural and practical importance to New Mexico? In this residency, students journey into the history of place through the lens of water; from ancient indigenous ways of water collection and distribution, to the Spanish introduction of the acequia system with its defined roles and hierarchy, to the different way of looking at water the Americans brought to the Southwest. Students work in collaboratively in groups with “expert packets” of information which they mine for their choreography work. This residency requires that students have some comprehension skills, especially for reading for information, synthesizing and verbally sharing, as well familiarity with working effectively in groups.",
+      "teachingArtist": {
+        "id": "recuQdTxEE57EI1Qw",
+        "name": "Kathleen Kingsley"
+      },
+      "gradeLevel": "6-8",
+      "artForms": [
+        "Dance / Choreography"
+      ],
+      "curriculumAreas": [
+        "Earth Science",
+        "Language Arts",
+        "New Mexico History"
+      ],
+      "sessions": 8,
+      "anchorId": ""
+    },
+    {
+      "id": "recpaG5TC41YR58S6",
+      "title": "The Art Nouveau Effect",
+      "isNew": true,
+      "description": "Students will explore the visionary works of Alphonse Mucha with a field trip to our very own Vladem Contemporary Museum (in-person before Sept 21, 2025; virtual field trip option may follow). They’ll examine how Art Nouveau emerged as a response to the Industrial Revolution and ask: What art reflects the Digital Revolution today? Through discussion, reflection, and studio artmaking, students refine their own artistic voices and create original works that connect history, aesthetics, and the human experience.",
+      "teachingArtist": {
+        "id": "recKqLeswgfy7cw44",
+        "name": "Liberty Yablon"
+      },
+      "gradeLevel": "9-12",
+      "artForms": [
+        "Visual Art: Drawing / Painting"
+      ],
+      "curriculumAreas": [
+        "Social Studies",
+        "Social-Emotional Learning"
+      ],
+      "sessions": 6,
+      "anchorId": ""
+    },
+    {
+      "id": "recpag9mOhN0PHkKv",
+      "title": "Arroyo Songs! — Songwriting meets Science",
+      "isNew": false,
+      "description": "Aligned closely with state and district standards, this hands-on residency integrates science, literacy, and the arts to meet educational objectives in an engaging and interdisciplinary way. In this residency, students write a song from the perspective of plants or animals in the arroyo. Students engage in a collaborative creative process that encourages critical thinking and synthesis of knowledge, transforming scientific ideas into expressive, memorable songs that they then record and share.",
+      "teachingArtist": {
+        "id": "rec0tmkEG7F8a1PJK",
+        "name": "Ivy Ross"
+      },
+      "gradeLevel": "4",
+      "artForms": [
+        "Music"
+      ],
+      "curriculumAreas": [
+        "Life Science"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recro0uJLaYK7Zg1A",
+      "title": "Breathing Life into New Mexico History",
+      "isNew": false,
+      "description": "This unit can help students find personal meaning and gain understanding from  historical events. During this residency, students create tableaus or frozen moments based on  a specific New Mexico historical event such as the Long March or the Battle of Glorieta. In the process, students will engage in language-based learning that comes to life and stays in long-term memory through drama. Students will collaborate in small groups to create a living picture of one part of the chosen event,  then write narration about their frozen picture. Your class can also share their creation of the entire event with another class at the end of this residency.",
+      "teachingArtist": {
+        "id": "recI5GNJ7IGTUu2eO",
+        "name": "Wendy Chapin"
+      },
+      "gradeLevel": "2-6",
+      "artForms": [
+        "Drama / Theater"
+      ],
+      "curriculumAreas": [
+        "New Mexico History",
+        "Language Arts"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "rectAQ81IaFG3HInu",
+      "title": "Finding the Math in Musical Patterns (Kindergarten)",
+      "isNew": false,
+      "description": "By identifying and creating musical patterns, students connect with basic mathematical concepts in an entirely new way, cementing a greater, longer lasting understanding of patterns and how they shape our world. Students will identify patterns in familiar songs, and create and share simple patterns using body percussion.  Dr. Ratay guides students through this creative process, while demonstrating how mathematics and music intertwine to create patterns pleasing to the mind and the ear alike. ",
+      "teachingArtist": {
+        "id": "recundPRwlCDfHoza",
+        "name": "Beth Ratay"
+      },
+      "gradeLevel": " K",
+      "artForms": [
+        "Music",
+        "Movement"
+      ],
+      "curriculumAreas": [
+        "Mathematics"
+      ],
+      "sessions": 3,
+      "anchorId": ""
+    },
+    {
+      "id": "recv5aLAa4wZOS5He",
+      "title": "The Garden of the Three Sisters",
+      "isNew": false,
+      "description": "Students discover the traditional crops of corn, beans, and squash—and how they work together to enrich soil, protect one another, and thrive as a community. Alongside planting and sprouting demonstrations, students connect farming practices to New Mexico history and global traditions of sustainable growing. Younger grades explore through costumes and play, while older students focus on science concepts such as life cycles, soil health, and cross-pollination. Hands-on activities encourage observation, problem-solving, and creativity and help students develop transferable skills across the curriculum.",
+      "teachingArtist": {
+        "id": "recKqLeswgfy7cw44",
+        "name": "Liberty Yablon"
+      },
+      "gradeLevel": "2-6",
+      "artForms": [
+        "Visual Art: Multimedia",
+        "Drama / Theater"
+      ],
+      "curriculumAreas": [
+        "Life Science",
+        "New Mexico History"
+      ],
+      "sessions": 7,
+      "anchorId": ""
+    },
+    {
+      "id": "recvnwjQXtbOd0QSB",
+      "title": "Volcanoes: The Story of the Valles Caldera",
+      "isNew": false,
+      "description": "What happened in the Valles Caldera? Can it happen again? In this residency students choreograph the powerful geologic forces behind one of the largest and ongoing volcanic eruptions in the Southwest, the Valles Caldera. Working in groups with “expert packets” of information, students are introduced to the processes that underlie the formation of volcanoes in general and the Valles Caldera in particular. Through exploring and embodying plate tectonics, and using the language of convergence, divergence, subduction, translation and uplift, students build vocabulary to design short dances that demonstrate the build up of events leading to the Valles Caldera’s massive explosion, and the aftermath of smaller volcanoes over geologic time. This residency requires that students have some comprehension skills, especially for reading for information, synthesizing and verbally sharing, as well familiarity with working effectively in groups.",
+      "teachingArtist": {
+        "id": "recuQdTxEE57EI1Qw",
+        "name": "Kathleen Kingsley"
+      },
+      "gradeLevel": "6-8",
+      "artForms": [
+        "Dance / Choreography"
+      ],
+      "curriculumAreas": [
+        "Earth Science",
+        "Language Arts"
+      ],
+      "sessions": 8,
+      "anchorId": ""
+    },
+    {
+      "id": "recyzGOtvexiUfSVv",
+      "title": "Water Dances: Dance Meets Science",
+      "isNew": false,
+      "description": "In this dynamic, integrated dance-and-science residency inspired by Thomas Locker’s *Water Dance*, students don’t just learn about water—they *become* it. Working in small, collaborative groups, they transform text, imagery, and video into living, moving waterscapes. From the first trickles high in the mountains to roaring rivers and rolling oceans, students embody the power of water as it shapes our planet.Through a series of creative “dance challenges,” learners experiment, problem-solve, and choreograph original movement sequences that capture the rhythms, patterns, and forces of water. Along the way, they deepen their understanding of earth science while building teamwork, communication, and performance skills. With a carefully scaffolded progression, every student experiences success, pride, and the thrill of bringing science to life through art.",
+      "teachingArtist": {
+        "id": "recuQdTxEE57EI1Qw",
+        "name": "Kathleen Kingsley"
+      },
+      "gradeLevel": "2-3",
+      "artForms": [
+        "Dance / Choreography"
+      ],
+      "curriculumAreas": [
+        "Earth Science",
+        "Language Arts"
+      ],
+      "sessions": 8,
+      "anchorId": ""
+    },
+    {
+      "id": "reczGxiUK5xKxh6x6",
+      "title": "Dancing New Mexico's Stories: Poetry in Motion",
+      "isNew": false,
+      "description": "Poetry offers a springboard into movement that can be concrete or abstract, simple or complex depending on student age, comprehension level and experience. Students connect more deeply with poetry when they involve their bodies in expressing emotion and meaning. In this residency students explore moving to words, phrases and finally whole poems presented as “choreography challenges”.  Working collaboratively in small groups,  they capture the imagery and essence of their poem into a dance “text” through a creative group process.  Poems range from simple haikus for younger grades, to more linguistically complex works from Levi Romero, Jimmy Santiago Baca, Nora Naranjo Morse and Michelle Otero for older students.",
+      "teachingArtist": {
+        "id": "recuQdTxEE57EI1Qw",
+        "name": "Kathleen Kingsley"
+      },
+      "gradeLevel": "3-12",
+      "artForms": [
+        "Dance / Choreography"
+      ],
+      "curriculumAreas": [
+        "Language Arts",
+        "New Mexico History"
+      ],
+      "sessions": 8,
+      "anchorId": ""
+    }
+  ]
+}
