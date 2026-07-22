@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALTO Residency Catalog</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --sfo-dark: #2a2a2a;
+      --sfo-gold: #b8922a;
+      --sfo-gold-light: #f0e0b0;
+      --sfo-gold-pale: #faf4e4;
+      --sfo-rule: #d4b86a;
+      --bg: #ffffff;
+      --bg-secondary: #f7f7f5;
+      --text-primary: #1a1a1a;
+      --text-secondary: #4a4a4a;
+      --text-tertiary: #888880;
+      --border: #e0ddd5;
+      --border-light: #eeebe3;
+      --radius: 8px;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --sfo-dark: #e8e0d0;
+        --sfo-gold: #d4aa4a;
+        --sfo-gold-light: #3a2e10;
+        --sfo-gold-pale: #1e1a0e;
+        --sfo-rule: #5a4a1a;
+        --bg: #1a1a18;
+        --bg-secondary: #222220;
+        --text-primary: #e8e4dc;
+        --text-secondary: #b0aa9e;
+        --text-tertiary: #6a6660;
+        --border: #38352d;
+        --border-light: #2e2b23;
+      }
+    }
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--text-primary);
+      padding: 2rem 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: var(--sfo-dark);
+      margin-bottom: 0.25rem;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: var(--text-tertiary);
+      margin-bottom: 1.5rem;
+    }
+    .filter-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 8px;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--sfo-rule);
+    }
+    .filter-group { display: flex; flex-direction: column; gap: 4px; }
+    .filter-group label {
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--sfo-gold);
+    }
+    select {
+      font-size: 12px;
+      background: var(--bg);
+      color: var(--text-primary);
+      border: 0.5px solid var(--border);
+      border-radius: 4px;
+      padding: 5px 8px;
+      width: 100%;
+    }
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: .75rem;
+    }
+    .count { font-size: 12px; color: var(--text-tertiary); font-style: italic; }
+    .clear-btn {
+      font-size: 11px;
+      color: var(--sfo-gold);
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .clear-btn:hover { color: var(--text-primary); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 10px;
+    }
+    .card {
+      background: var(--bg);
+      border: 0.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover { border-color: var(--sfo-rule); background: var(--sfo-gold-pale); }
+    .card.expanded { border-color: var(--sfo-rule); background: var(--sfo-gold-pale); }
+    .card-top { display: flex; align-items: flex-start; gap: 10px; }
+    .card-left { flex: 1; min-width: 0; }
+    .card-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--sfo-dark);
+      line-height: 1.45;
+      margin-bottom: 6px;
+    }
+    .new-badge {
+      display: inline-block;
+      font-size: 9px;
+      font-weight: 500;
+      font-family: var(--font-sans);
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      background: var(--sfo-gold-light);
+      color: var(--sfo-gold);
+      border-radius: 3px;
+      padding: 1px 5px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    .meta-row { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+    .grade-tag {
+      font-size: 11px;
+      background: var(--sfo-dark);
+      color: var(--sfo-gold-pale);
+      border-radius: 3px;
+      padding: 2px 7px;
+      letter-spacing: .02em;
+    }
+    @media (prefers-color-scheme: dark) {
+      .grade-tag { background: var(--sfo-gold); color: #1a1400; }
+    }
+    .art-tag {
+      font-size: 11px;
+      color: var(--text-secondary);
+      border: 0.5px solid var(--border);
+      border-radius: 3px;
+      padding: 2px 7px;
+    }
+    .chevron {
+      font-size: 18px;
+      color: var(--text-tertiary);
+      flex-shrink: 0;
+      margin-top: 1px;
+      transition: transform .2s;
+      user-select: none;
+    }
+    .card.expanded .chevron { transform: rotate(180deg); color: var(--sfo-gold); }
+    .detail {
+      display: none;
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 0.5px solid var(--border);
+    }
+    .card.expanded .detail { display: block; }
+    .desc {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.65;
+      margin-bottom: 10px;
+    }
+    .dl {
+      display: grid;
+      grid-template-columns: 90px 1fr;
+      gap: 3px 8px;
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+    .dt { color: var(--text-tertiary); font-weight: 500; padding: 2px 0; align-self: start; }
+    .dd { color: var(--text-secondary); padding: 2px 0; }
+    .stags { display: flex; flex-wrap: wrap; gap: 3px; }
+    .stag { font-size: 11px; border-radius: 3px; padding: 2px 6px; }
+    .s-math { background: #faeeda; color: #633806; }
+    .s-ela { background: #e6f1fb; color: #0c447c; }
+    .s-earth { background: #eaf3de; color: #27500a; }
+    .s-life { background: #eaf3de; color: #27500a; }
+    .s-space { background: #eeedfe; color: #3c3489; }
+    .s-physical { background: #eeedfe; color: #3c3489; }
+    .s-nmhist { background: #faece7; color: #712b13; }
+    .s-social { background: #faece7; color: #712b13; }
+    .s-sel { background: #e1f5ee; color: #085041; }
+    .s-pe { background: #f1efe8; color: #444441; }
+    .s-multi { background: #fbeaf0; color: #72243e; }
+    @media (prefers-color-scheme: dark) {
+      .s-math { background: #412402; color: #fac775; }
+      .s-ela { background: #042c53; color: #b5d4f4; }
+      .s-earth, .s-life { background: #173404; color: #c0dd97; }
+      .s-space, .s-physical { background: #26215c; color: #cecbf6; }
+      .s-nmhist, .s-social { background: #4a1b0c; color: #f5c4b3; }
+      .s-sel { background: #04342c; color: #9fe1cb; }
+      .s-pe { background: #2c2c2a; color: #d3d1c7; }
+      .s-multi { background: #4b1528; color: #f4c0d1; }
+    }
+    .artist-link { color: var(--sfo-gold); text-decoration: none; border-bottom: 1px solid var(--sfo-rule); }
+    .artist-link:hover { color: var(--sfo-dark); }
+    .apply-link {
+      display: inline-block;
+      font-size: 12px;
+      color: var(--sfo-gold);
+      text-decoration: none;
+      border-bottom: 1px solid var(--sfo-rule);
+      padding-bottom: 1px;
+    }
+    .apply-link:hover { color: var(--sfo-dark); }
+    .sessions-dot {
+      display: inline-block;
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: var(--sfo-gold);
+      margin-right: 5px;
+      vertical-align: 2px;
+    }
+    .none {
+      padding: 2.5rem;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-tertiary);
+      background: var(--bg);
+      border-radius: var(--radius);
+      border: 0.5px solid var(--border);
+    }
+    .section-heading {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: var(--sfo-dark);
+      margin: 2.5rem 0 1rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--sfo-rule);
+    }
+    .artists-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 14px;
+    }
+    .artist-card {
+      display: flex;
+      gap: 12px;
+      background: var(--bg);
+      border: 0.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+      scroll-margin-top: 20px;
+    }
+    .artist-card:target {
+      border-color: var(--sfo-gold);
+      background: var(--sfo-gold-pale);
+    }
+    .artist-photo {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      background: var(--bg-secondary);
+    }
+    .artist-photo-placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--sfo-gold);
+      background: var(--sfo-gold-pale);
+    }
+    .artist-info { min-width: 0; }
+    .artist-name {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 14px;
+      color: var(--sfo-dark);
+      margin-bottom: 2px;
+    }
+    .artist-artform {
+      font-size: 11px;
+      color: var(--sfo-gold);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-bottom: 6px;
+    }
+    .artist-bio p {
+      font-size: 12px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 6px;
+    }
+    .artist-bio p:last-child { margin-bottom: 0; }
+    .updated-at {
+      font-size: 11px;
+      color: var(--text-tertiary);
+      margin-top: 2.5rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<h1>ALTO Residency Catalog</h1>
+<p class="subtitle">Arts-Linked Teaching Opportunities &mdash; Santa Fe Opera</p>
+
+<div class="filter-bar">
+  <div class="filter-group">
+    <label for="f-grade">Grade level</label>
+    <select id="f-grade"><option value="">All grades</option></select>
+  </div>
+  <div class="filter-group">
+    <label for="f-subject">Subject area</label>
+    <select id="f-subject"><option value="">All subjects</option></select>
+  </div>
+  <div class="filter-group">
+    <label for="f-art">Art form</label>
+    <select id="f-art"><option value="">All art forms</option></select>
+  </div>
+  <div class="filter-group">
+    <label for="f-artist">Teaching artist</label>
+    <select id="f-artist"><option value="">All artists</option></select>
+  </div>
+</div>
+
+<div class="toolbar">
+  <span class="count" id="count"></span>
+  <button class="clear-btn" id="clear-btn">Clear filters</button>
+</div>
+
+<div id="grid"><div class="none">Loading residencies&hellip;</div></div>
+
+<h2 class="section-heading">Teaching Artists</h2>
+<div id="artists-grid" class="artists-grid"></div>
+
+<p class="updated-at" id="updated-at"></p>
+
+<script>
+const INFO_URL = "https://www.santafeopera.org/alto-teacher-information-page/";
+const DATA_URL = "data/catalog.json";
+
+const SMAP = {
+  "Mathematics":"Mathematics","Language Arts":"ELA / Language Arts","Earth Science":"Earth Science",
+  "Life Science":"Life Science","Space Science":"Space Science","Physical Science":"Physical Science",
+  "New Mexico History":"NM History","Social Studies":"Social Studies",
+  "Social-Emotional Learning":"Social-Emotional Learning","Physical Education":"Physical Education",
+  "Multi-Disciplinary":"Multi-Disciplinary"
+};
+
+const SCLS = {
+  "Mathematics":"s-math","Language Arts":"s-ela","Earth Science":"s-earth","Life Science":"s-life",
+  "Space Science":"s-space","Physical Science":"s-physical","New Mexico History":"s-nmhist",
+  "Social Studies":"s-social","Social-Emotional Learning":"s-sel","Physical Education":"s-pe",
+  "Multi-Disciplinary":"s-multi"
+};
+
+const GRADE_OPTIONS = [
+  {v:-1,l:"Pre-K"},
+  {v:0,l:"K"},
+  ...Array.from({length:12},(_,i)=>({v:i+1,l:`Grade ${i+1}`}))
+];
+
+let R = [];
+let ARTISTS = [];
+
+function escapeHtml(str) {
+  return String(str ?? "")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#39;");
+}
+
+function slugify(str) {
+  return String(str || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g,"-")
+    .replace(/(^-|-$)/g,"");
+}
+
+function artistAnchorId(id, name) {
+  return `artist-${slugify(name || id || "unknown")}`;
+}
+
+function tokenToValue(tok) {
+  if (/^pre-?k$/i.test(tok)) return -1;
+  if (/^k$/i.test(tok)) return 0;
+  const n = parseInt(tok, 10);
+  return Number.isNaN(n) ? null : n;
+}
+
+// Parses free-text grade levels like "3-6", "4", " Pre-K", " Pre-K to 2", " K-4"
+function parseGradeLevel(raw) {
+  const text = String(raw || "");
+  const tokens = text.match(/pre-?k|k|\d+/gi) || [];
+  const values = tokens.map(tokenToValue).filter(v => v !== null);
+  if (!values.length) return { min: null, max: null };
+  return { min: Math.min(...values), max: Math.max(...values) };
+}
+
+function gradeValueLabel(v) {
+  if (v === -1) return "Pre-K";
+  if (v === 0) return "K";
+  return String(v);
+}
+
+function gradeRangeLabel(min, max) {
+  if (min === null || max === null) return "\u2014";
+  return min === max ? gradeValueLabel(min) : `${gradeValueLabel(min)}\u2013${gradeValueLabel(max)}`;
+}
+
+function initials(name) {
+  return String(name || "")
+    .split(/\s+/)
+    .map(w => w[0] || "")
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
+}
+
+function formatBio(bio) {
+  const escaped = escapeHtml(bio);
+  const paragraphs = escaped.split(/\n{2,}/).map(p => p.replace(/\n/g, "<br>"));
+  return paragraphs.map(p => `<p>${p}</p>`).join("");
+}
+
+function populate() {
+  const gs = document.getElementById("f-grade");
+  gs.innerHTML = '<option value="">All grades</option>';
+  GRADE_OPTIONS.forEach(g => {
+    const o = document.createElement("option");
+    o.value = g.v; o.textContent = g.l;
+    gs.appendChild(o);
+  });
+
+  const ss = document.getElementById("f-subject");
+  ss.innerHTML = '<option value="">All subjects</option>';
+  [...new Set(R.flatMap(r=>r.s))].sort().forEach(s => {
+    const o = document.createElement("option");
+    o.value = s; o.textContent = SMAP[s] || s;
+    ss.appendChild(o);
+  });
+
+  const as = document.getElementById("f-art");
+  as.innerHTML = '<option value="">All art forms</option>';
+  [...new Set(R.flatMap(r=>r.a))].sort().forEach(a => {
+    const o = document.createElement("option");
+    o.value = a; o.textContent = a;
+    as.appendChild(o);
+  });
+
+  const ar = document.getElementById("f-artist");
+  ar.innerHTML = '<option value="">All artists</option>';
+  [...new Set(R.map(r=>r.ar))].sort().forEach(a => {
+    const o = document.createElement("option");
+    o.value = a; o.textContent = a;
+    ar.appendChild(o);
+  });
+}
+
+function render() {
+  const gv = document.getElementById("f-grade").value;
+  const sv = document.getElementById("f-subject").value;
+  const av = document.getElementById("f-art").value;
+  const arv = document.getElementById("f-artist").value;
+  const gvNum = gv === "" ? null : parseInt(gv, 10);
+
+  const filtered = R.filter(r => {
+    if (gvNum !== null) {
+      if (r.gMin === null || gvNum < r.gMin || gvNum > r.gMax) return false;
+    }
+    if (sv && !r.s.includes(sv)) return false;
+    if (av && !r.a.includes(av)) return false;
+    if (arv && r.ar !== arv) return false;
+    return true;
+  });
+
+  document.getElementById("count").textContent = `${filtered.length} of ${R.length} residencies`;
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+  if (!filtered.length) {
+    grid.innerHTML = '<div class="none">No residencies match the selected filters.</div>';
+    return;
+  }
+  const wrap = document.createElement("div");
+  wrap.className = "grid";
+  filtered.forEach(r => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <div class="card-top">
+        <div class="card-left">
+          <div class="card-title">${escapeHtml(r.t)}${r.isNew ? '<span class="new-badge">New</span>' : ''}</div>
+          <div class="meta-row">
+            <span class="grade-tag">${gradeRangeLabel(r.gMin, r.gMax)}</span>
+            ${r.a.slice(0,2).map(x=>`<span class="art-tag">${escapeHtml(x)}</span>`).join("")}
+          </div>
+        </div>
+        <span class="chevron">&#8964;</span>
+      </div>
+      <div class="detail">
+        <p class="desc">${escapeHtml(r.d)}</p>
+        <div class="dl">
+          <span class="dt">Subjects</span>
+          <span class="dd"><span class="stags">${r.s.map(x=>`<span class="stag ${SCLS[x]||''}">${escapeHtml(SMAP[x]||x)}</span>`).join("")}</span></span>
+          <span class="dt">Art forms</span>
+          <span class="dd">${escapeHtml(r.a.join(", "))}</span>
+          <span class="dt">Artist</span>
+          <span class="dd"><a class="artist-link" href="#${artistAnchorId(r.arId, r.ar)}">${escapeHtml(r.ar)}</a></span>
+          <span class="dt">Sessions</span>
+          <span class="dd"><span class="sessions-dot"></span>${r.sess ?? "\u2014"}</span>
+        </div>
+        <a class="apply-link" href="${INFO_URL}" target="_blank">How to apply for this residency &rarr;</a>
+      </div>`;
+    card.addEventListener("click", e => {
+      if (e.target.tagName === "A") return;
+      card.classList.toggle("expanded");
+    });
+    wrap.appendChild(card);
+  });
+  grid.appendChild(wrap);
+}
+
+function renderArtists() {
+  const grid = document.getElementById("artists-grid");
+  if (!ARTISTS.length) {
+    grid.innerHTML = '<div class="none">No teaching artist bios available yet.</div>';
+    return;
+  }
+  grid.innerHTML = ARTISTS
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map(a => `
+      <div class="artist-card" id="${artistAnchorId(a.id, a.name)}">
+        ${a.photo
+          ? `<img class="artist-photo" src="${a.photo}" alt="${escapeHtml(a.name)}">`
+          : `<div class="artist-photo artist-photo-placeholder">${escapeHtml(initials(a.name))}</div>`}
+        <div class="artist-info">
+          <div class="artist-name">${escapeHtml(a.name)}</div>
+          ${a.artForm ? `<div class="artist-artform">${escapeHtml(a.artForm)}</div>` : ""}
+          <div class="artist-bio">${formatBio(a.bio)}</div>
+        </div>
+      </div>`)
+    .join("");
+}
+
+document.getElementById("clear-btn").addEventListener("click", () => {
+  ["f-grade","f-subject","f-art","f-artist"].forEach(id => document.getElementById(id).value="");
+  render();
+});
+["f-grade","f-subject","f-art","f-artist"].forEach(id =>
+  document.getElementById(id).addEventListener("change", render)
+);
+
+async function loadData() {
+  try {
+    const res = await fetch(DATA_URL, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const json = await res.json();
+
+    ARTISTS = json.artists || [];
+    R = (json.residencies || []).map(r => {
+      const { min, max } = parseGradeLevel(r.gradeLevel);
+      return {
+        id: r.id,
+        t: r.title,
+        isNew: !!r.isNew,
+        d: r.description,
+        s: r.curriculumAreas || [],
+        a: r.artForms || [],
+        arId: r.teachingArtist?.id || null,
+        ar: r.teachingArtist?.name || "TBD",
+        sess: r.sessions,
+        gMin: min,
+        gMax: max
+      };
+    });
+
+    document.getElementById("updated-at").textContent = json.generatedAt
+      ? `Catalog last updated ${new Date(json.generatedAt).toLocaleString()}`
+      : "";
+
+    populate();
+    renderArtists();
+    render();
+  } catch (err) {
+    document.getElementById("grid").innerHTML = `<div class="none">
+      Couldn't load the catalog (${escapeHtml(err.message)}). If you're opening this file
+      directly from your computer, view it through a local server or the published
+      GitHub Pages URL instead &mdash; browsers block local JSON fetches from a plain
+      double-clicked HTML file.
+    </div>`;
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>
