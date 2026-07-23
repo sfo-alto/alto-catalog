@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T19:36:28.245Z",
+  "generatedAt": "2026-07-23T20:30:41.210Z",
   "artists": [
     {
       "id": "rec0tmkEG7F8a1PJK",
@@ -35,6 +35,13 @@
       "artForm": "Visual Art: Multimedia",
       "bio": "Nancy Morris-Judd is an experienced teaching artist who has been delivering arts integration residencies to K-12 students since 2015. She collaborates closely with teachers to design residencies that align with specific curriculum goals and State Standards, customizing each project to fit the needs of both educators and students. Nancy is committed to providing practical arts integration tools that teachers can continue to use after the residency ends. A key goal is to inspire students to take an active role in their learning by offering creative opportunities for self-expression. Nancy also strives to meet the diverse needs of students by providing multiple ways for them to learn and demonstrate their knowledge. In addition to visual arts, Nancy’s residencies often include movement, theater, and music, creating an engaging and enjoyable learning experience for both students and teachers. Nancy has an Elementary Teaching Certificate but loves to work with students of all ages.\n",
       "photo": "photos/nancy-morris-judd-hDdZKi.png"
+    },
+    {
+      "id": "recUuiD929X3fBwGj",
+      "name": "Alejandro Jimenez",
+      "artForm": "Poetry / Creative Writing",
+      "bio": "Alejandro Jimenez is a formerly-undocumented immigrant, poet, writer, and educator from Colima, Mexico, living in New Mexico. He placed 3rd at the 2022 Abya Yala Poetry Slam Championships held in Rio de Janeiro, Brazil, which brought together 15 national poetry slam champions from 15 countries in North, South, Central America and the Caribbean. He is the 2021 Mexican National Poetry Slam Champion, he is a two-time National Poetry Slam Semi-Finalist (US), multiple time TEDx Speaker/Performer, and a regional Emmy-nominated poet. In 2022, he was featured in TIME Magazine as one of 80 Mexican artists shaping contemporary Mexican culture. His work centers and touches on cultural identity, immigrant narratives, masculinity, memory, and the intersections of them all.\n",
+      "photo": "photos/alejandro-jimenez-3fBwGj.jpg"
     },
     {
       "id": "recWINmsmuzoEIRb6",
@@ -97,6 +104,26 @@
         "Language Arts"
       ],
       "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "rec0WDKphmVvT4Ior",
+      "title": "Wind and Water Carve New Mexico",
+      "isNew": false,
+      "description": "How did Ship Rock come to be? What are the Tent Rocks made of? How was Glorieta Mesa formed? In this residency students choreograph living landscapes, embodying the powerful force that wind and water played and continue to play in carving and shaping our state. This is an integrated dance/ science literacy residency for 4th-5th grades focused on sequencing and visualizing the forces of wind and water and their geographic implications for New Mexico. Students collaboratively translate the story of erosion in New Mexico into a dance “text” through the creative process of choreography.",
+      "teachingArtist": {
+        "id": "recuQdTxEE57EI1Qw",
+        "name": "Kathleen Kingsley"
+      },
+      "gradeLevel": "4-5",
+      "artForms": [
+        "Dance / Choreography"
+      ],
+      "curriculumAreas": [
+        "Earth Science",
+        "Language Arts"
+      ],
+      "sessions": 8,
       "anchorId": ""
     },
     {
@@ -181,7 +208,7 @@
     {
       "id": "rec6P2hBby79y65pf",
       "title": "Wind and Water Carve New Mexico (RB)",
-      "isNew": true,
+      "isNew": false,
       "description": "How did Ship Rock come to be? What are the Tent Rocks made of? How was Glorieta Mesa formed? In this residency students choreograph living landscapes, embodying the powerful force that wind and water played and continue to play in carving and shaping our state. This is an integrated dance/ science literacy residency for 4th-5th grades focused on sequencing and visualizing the forces of wind and water and their geographic implications for New Mexico. Students collaboratively translate the story of erosion in New Mexico into a dance “text” through the creative process of choreography.",
       "teachingArtist": {
         "id": "recuQkrZKtphhJlr4",
@@ -220,7 +247,7 @@
     {
       "id": "recAQCoNCye46sQqR",
       "title": "ConteXt CodeX: Understanding Through Context",
-      "isNew": false,
+      "isNew": true,
       "description": "Students often study events, texts, and ideas in isolation, missing the connections that make meaning clear. In this residency, students create accordion-fold codex books that help them explore how context—timelines, perspectives, related events—deepens understanding of any subject. Each codex features continuous pages for timelines and pockets for student-created inserts: maps, character analyses, thematic explorations, mini-zines, and personal reflections. Students organize and analyze information in ways that make sense to them, resulting in a personalized book that documents both their research and their thinking. By the end of the residency, every student completes a codex that demonstrates how understanding context helps us make sense of events, others, and ourselves more fully.\n\nPlanning Note: This residency works best when coordinated with an existing classroom unit. Students should have read a complete text or completed research on a topic before the first session. Nancy collaborates with teachers during planning to align the residency with curriculum goals while allowing students to choose specific topics within that frame.",
       "teachingArtist": {
         "id": "recUP8ZJB3MhDdZKi",
@@ -301,7 +328,7 @@
     {
       "id": "recJGyvYXx23TM3aW",
       "title": "Cosmogram: Mapping a Cosmic Identity",
-      "isNew": true,
+      "isNew": false,
       "description": "Designed as a follow-up to Cosmic Calendars and for students with a primary foundation of astronomy and earth science. Using mixed-media and collage, students will translate their astronomical knowledge into a personal Cosmogram a.k.a. cosmic identity map. The Cosmogram will depict the phase and location of celestial bodies as well as the season and geography of the student's time of birth. Students will learn how to access and interpret the astronomy of their birth time and track the current moment. Guided by artist and astro enthusiast Moira Garcia, this residency will fortify and expand previous knowledge and cultivate a deeper relationship to the cosmos and personal identity.",
       "teachingArtist": {
         "id": "recakSBljHNaAXUel",
@@ -362,7 +389,7 @@
     {
       "id": "recP8LNoIZK0OEYWo",
       "title": "Cosmic Calendars (Abbreviated)",
-      "isNew": true,
+      "isNew": false,
       "description": "Shorter residencies focus on tracking time through understanding the lunar phases OR the four seasons. Students will work in groups to create a collaborative collage of the moon cycles and solar system OR a calendar wheel of the four seasons while exploring the artist’s tools of color, pattern, geometry, and composition. ",
       "teachingArtist": {
         "id": "recakSBljHNaAXUel",
@@ -395,6 +422,25 @@
         "Mathematics"
       ],
       "sessions": 6,
+      "anchorId": ""
+    },
+    {
+      "id": "recQvSlAZve92ISIt",
+      "title": "Poetry as the Means We Need: Spoken Word & Performance Poetry",
+      "isNew": false,
+      "description": "Seen as a “step-child” of academic poetry, spoken-word/performance poetry (or slam poetry) is a poetry form that is infinite and accessible to all students. This type of poetry, most importantly, opens the door for poets to use their whole body, and space, to make a poem come alive! In this workshop, through different writing exercises, students will write their own spoken-word poems and will be exposed to different performing styles and will learn memorizing techniques to recite their poem like a seasoned poetry slam poet. This workshop will ask students to explore the power of their own story as a means to create change, not be forgotten, and inspire others to do the same. ",
+      "teachingArtist": {
+        "id": "recUuiD929X3fBwGj",
+        "name": "Alejandro Jimenez"
+      },
+      "gradeLevel": "6-12",
+      "artForms": [
+        "Poetry / Creative Writing"
+      ],
+      "curriculumAreas": [
+        "Language Arts"
+      ],
+      "sessions": 5,
       "anchorId": ""
     },
     {
@@ -577,7 +623,7 @@
     {
       "id": "recky3OvpDvuJ7XJL",
       "title": "El Agua es Vida: A Dive into New Mexico History",
-      "isNew": true,
+      "isNew": false,
       "description": "What is an acequia? What is its cultural and practical importance to New Mexico? In this residency, students journey into the history of place through the lens of water; from ancient indigenous ways of water collection and distribution, to the Spanish introduction of the acequia system with its defined roles and hierarchy, to the different way of looking at water the Americans brought to the Southwest. Students work in collaboratively in groups with “expert packets” of information which they mine for their choreography work. This residency requires that students have some comprehension skills, especially for reading for information, synthesizing and verbally sharing, as well familiarity with working effectively in groups.",
       "teachingArtist": {
         "id": "recuQdTxEE57EI1Qw",
@@ -593,26 +639,6 @@
         "New Mexico History"
       ],
       "sessions": 8,
-      "anchorId": ""
-    },
-    {
-      "id": "recpaG5TC41YR58S6",
-      "title": "The Art Nouveau Effect",
-      "isNew": true,
-      "description": "Students will explore the visionary works of Alphonse Mucha with a field trip to our very own Vladem Contemporary Museum (in-person before Sept 21, 2025; virtual field trip option may follow). They’ll examine how Art Nouveau emerged as a response to the Industrial Revolution and ask: What art reflects the Digital Revolution today? Through discussion, reflection, and studio artmaking, students refine their own artistic voices and create original works that connect history, aesthetics, and the human experience.",
-      "teachingArtist": {
-        "id": "recKqLeswgfy7cw44",
-        "name": "Liberty Yablon"
-      },
-      "gradeLevel": "9-12",
-      "artForms": [
-        "Visual Art: Drawing / Painting"
-      ],
-      "curriculumAreas": [
-        "Social Studies",
-        "Social-Emotional Learning"
-      ],
-      "sessions": 6,
       "anchorId": ""
     },
     {
