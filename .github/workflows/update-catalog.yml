@@ -2,7 +2,7 @@ name: Update ALTO Catalog Data
 
 on:
   schedule:
-    - cron: "0 * * * *"   # hourly; adjust as needed (e.g. */30 * * * * for every 30 min)
+    - cron: "17 * * * *"   # hourly; adjust as needed (e.g. */30 * * * * for every 30 min)
   workflow_dispatch:        # allows manual "Run workflow" trigger from GitHub UI
 
 permissions:
