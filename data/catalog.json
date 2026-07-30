@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T19:27:02.653Z",
+  "generatedAt": "2026-07-30T19:51:10.815Z",
   "artists": [
     {
       "id": "rec0tmkEG7F8a1PJK",
@@ -267,7 +267,7 @@
     {
       "id": "recCDCQkU0BugGrTB",
       "title": "Circles! In Art, Drama, Classroom, and Community",
-      "isNew": true,
+      "isNew": false,
       "description": "In this residency, students will explore circles as a theme in both visual art, drama, and community circles. Students will engage in a set of scaffolded creative practices such as found circle poems, spiral drawings, simple mandalas as well as playing drama games in a circle, and will host community conversations and circles. Students will creatively record all of their sketches and artwork in their journals, and in closing share them with each other in class.",
       "teachingArtist": {
         "id": "recSjglHcqb3FCdTZ",
@@ -388,9 +388,9 @@
     },
     {
       "id": "recP8LNoIZK0OEYWo",
-      "title": "Cosmic Calendars (Abbreviated)",
+      "title": "Cosmic Calendars: Charting Sun, Moon, and Seasons (Abbreviated)",
       "isNew": false,
-      "description": "Shorter residencies focus on tracking time through understanding the lunar phases OR the four seasons. Students will work in groups to create a collaborative collage of the moon cycles and solar system OR a calendar wheel of the four seasons while exploring the artist’s tools of color, pattern, geometry, and composition. ",
+      "description": "This shorter residency focuses on tracking time through understanding the lunar phases OR the four seasons. Students will work in groups to create a collaborative collage of the moon cycles and solar system OR a calendar wheel of the four seasons while exploring the artist’s tools of color, pattern, geometry, and composition. ",
       "teachingArtist": {
         "id": "recakSBljHNaAXUel",
         "name": "Moira Garcia"
