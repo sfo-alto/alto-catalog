@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T17:18:38.381Z",
+  "generatedAt": "2026-08-03T22:16:45.328Z",
   "artists": [
     {
       "id": "rec0tmkEG7F8a1PJK",
@@ -206,26 +206,6 @@
       "anchorId": ""
     },
     {
-      "id": "rec6P2hBby79y65pf",
-      "title": "Wind and Water Carve New Mexico (RB)",
-      "isNew": false,
-      "description": "How did Ship Rock come to be? What are the Tent Rocks made of? How was Glorieta Mesa formed? In this residency students choreograph living landscapes, embodying the powerful force that wind and water played and continue to play in carving and shaping our state. This is an integrated dance/ science literacy residency for 4th-5th grades focused on sequencing and visualizing the forces of wind and water and their geographic implications for New Mexico. Students collaboratively translate the story of erosion in New Mexico into a dance “text” through the creative process of choreography.",
-      "teachingArtist": {
-        "id": "recuQkrZKtphhJlr4",
-        "name": "Randy Barron"
-      },
-      "gradeLevel": "4-5",
-      "artForms": [
-        "Dance / Choreography"
-      ],
-      "curriculumAreas": [
-        "Earth Science",
-        "Language Arts"
-      ],
-      "sessions": 6,
-      "anchorId": ""
-    },
-    {
       "id": "recAO2kGnNR6FK83w",
       "title": "Look at That Flower!",
       "isNew": false,
@@ -268,7 +248,7 @@
       "id": "recCDCQkU0BugGrTB",
       "title": "Circles! In Art, Drama, Classroom, and Community",
       "isNew": false,
-      "description": "In this residency, students will explore circles as a theme in both visual art, drama, and community circles. Students will engage in a set of scaffolded creative practices such as found circle poems, spiral drawings, simple mandalas as well as playing drama games in a circle, and will host community conversations and circles. Students will creatively record all of their sketches and artwork in their journals, and in closing share them with each other in class.",
+      "description": "In this residency, students will explore circles as a theme in both visual art, drama, and community circles. Students will engage in a set of scaffolded creative practices such as found spiral drawings, simple mandalas, and playing drama games in a circle, and they will host community conversations and circles. Students will creatively record all of their sketches and artwork in their journals, and in closing share them with each other in class.",
       "teachingArtist": {
         "id": "recSjglHcqb3FCdTZ",
         "name": "Michelle Holdt"
@@ -348,7 +328,7 @@
       "id": "recKLyJrabetQ4ZNs",
       "title": "The Passion Project, An Exploration of Self and Identity",
       "isNew": false,
-      "description": "In this residency, students will explore a self-selected topic connected to their personal identity using \"experiential arts based research.\" The residency begins with students building and constructing an \"artful journal\" with recycled materials and found paper ephemera. The journals then become a place to document their research on identity that ties to grade level appropriate NM ELA standards. Students will participate in a handful of scaffolded creative practices such as found word poetry, blind contour drawing, and practice interviews as they begin their research. The students will then research on their own using “non-screen based” modes of learning including but not limited to: interviewing experts, having an experience, reading a book, observational drawings, and MORE! All of their key takeaways are creatively recorded in their journals and shared with each other on final day of class.",
+      "description": "In this residency, students will explore a self-selected topic connected to their personal identity using \"experiential arts based research.\" The residency begins with students building and constructing an \"artful journal\" with recycled materials and found paper ephemera. The journals then become a place to document their research on identity that ties to grade level appropriate NM ELA standards. Students will participate in a handful of scaffolded creative practices such as found word poetry, blind contour drawing, and practice interviews as they begin their research. The students will then research on their own using “non-screen based” modes of learning including but not limited to: interviewing experts, having an experience, reading a book, observational drawings, and MORE! All of their key takeaways are creatively recorded in their journals and shared with each other on the final day of class.\n",
       "teachingArtist": {
         "id": "recSjglHcqb3FCdTZ",
         "name": "Michelle Holdt"
@@ -602,9 +582,9 @@
     },
     {
       "id": "reckNu8QaQ6VVJtMh",
-      "title": "Loving Learning & Learning About Love in Handmade Gelli Printed Books",
-      "isNew": false,
-      "description": "Do your students struggle to engage with certain classroom curriculum? In this hands-on residency students will learn Gelli printing and build their own visual journals and then reflect on how they learn best. Using acrylic paints and Gelli Plates and different book building strategies students will learn to make a book that will truly become their own. Those books will hold notes from class discussions, scribbles, poetry, collage, drawings, and MORE! These journals will also hold student reflections on what they love about learning and how love itself is a powerful measure of engagement. At the end of the residency the class will share their journals full of ideas, sketches, plans, notes, and each student's highly individualized self-exploration and expression.",
+      "title": "Gelli Printing, Pop-Ups, & Accordion Books",
+      "isNew": true,
+      "description": "Do your students struggle to engage with classroom curriculum? In this hands-on residency students will learn how to Gelli print and build their own visual journals and pop-up accordion books. Using acrylic paints and Gelli Plates and different book building strategies, students will learn to make a book that will truly become their own. Those books will hold notes from class discussions, scribbles, poetry, collage, drawings, and MORE! \n\nAt the end of the residency, the class will share their journals and art work with a gallery walk and each student's highly individualized self-exploration & expression.",
       "teachingArtist": {
         "id": "recSjglHcqb3FCdTZ",
         "name": "Michelle Holdt"
