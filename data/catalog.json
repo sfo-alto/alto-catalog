@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T18:10:15.192Z",
+  "generatedAt": "2026-08-07T18:15:03.944Z",
   "artists": [
     {
       "id": "rec0tmkEG7F8a1PJK",
@@ -619,6 +619,25 @@
         "New Mexico History"
       ],
       "sessions": 8,
+      "anchorId": ""
+    },
+    {
+      "id": "recngGNZXz5VKu0Oa",
+      "title": "Meaningful Symbolism: Petroglyphs to Pop Culture",
+      "isNew": true,
+      "description": "In this hands-on residency students learn to communicate visually through engagement with ancient petroglyphs from local historical sites. They explore a bit of New Mexico history and think critically about historical and modern forms of communication, storytelling and persuasive cultural engagement. They develop an artistic lens to bring their knowledge of historical and modern symbolic expression to life.",
+      "teachingArtist": {
+        "id": "recKqLeswgfy7cw44",
+        "name": "Liberty Yablon"
+      },
+      "gradeLevel": "7",
+      "artForms": [
+        "Visual Art: Multimedia"
+      ],
+      "curriculumAreas": [
+        "Social Studies"
+      ],
+      "sessions": 6,
       "anchorId": ""
     },
     {
