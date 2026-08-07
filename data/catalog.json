@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T18:15:03.944Z",
+  "generatedAt": "2026-08-07T20:23:44.616Z",
   "artists": [
     {
       "id": "rec0tmkEG7F8a1PJK",
@@ -27,7 +27,7 @@
       "name": "Michelle Holdt",
       "artForm": "Visual Art: Multimedia",
       "bio": "Michelle Holdt is an enthusiastic arts integration specialist and leader with a strong commitment to leading an arts rich life and making creative practice available for all children. She has over 20 years experience in arts education as a drama teacher, professional development leader, and arts administrator in a wide variety of educational settings. She was the Arts and Restorative Learning Coordinator at the San Mateo County Office of Ed and holds a Masters and Credential in Educational Administration from San Francisco State University, an Art Integration Certificate with The Alliance for Arts Learning Leadership, a BA in Drama and Human Development from Harvard University, a Masters in Theatre and Dance from the University of New Mexico, and a clear K-8 multiple subject credential from New College of California in San Francisco.\n",
-      "photo": "photos/michelle-holdt-3FCdTZ.png"
+      "photo": "photos/michelle-holdt-3FCdTZ.jpg"
     },
     {
       "id": "recUP8ZJB3MhDdZKi",
@@ -48,7 +48,7 @@
       "name": "Delia St. Louis",
       "artForm": "Visual Art: Multimedia",
       "bio": "Delia St. Louis is an educator with a Master of Science in Education. She has classroom teaching experience dating back to 1999 in the New York City Public Schools and later starting in 2013 at Albuquerque Public Schools. She’s also the founder of Learning Without The Noise, a practice in which children learn tools and exercises that give them a unique advantage in learning and in life.\n",
-      "photo": "photos/delia-st-louis-oEIRb6.png"
+      "photo": "photos/delia-st-louis-oEIRb6.jpg"
     },
     {
       "id": "recakSBljHNaAXUel",
@@ -148,6 +148,25 @@
       "anchorId": ""
     },
     {
+      "id": "rec1hZNhFkElLLjPm",
+      "title": "Wonder Works",
+      "isNew": true,
+      "description": "In Wonder Works, students become question-detectives, using their bodies, voices, and imaginations to investigate the mysteries all around them — Why do we dream? What makes something fair? Where do\nideas come from? Instead of looking up answers, students step into them: freezing into human sculptures of an idea, interviewing a character who's never existed before, or turning a \"what if\" into a scene right before everyone's eyes.\n\nOver the course of this residency, young performers won't just learn drama techniques — they'll learn to wonder on purpose. Every game, scene, and tableau is built to sharpen the skill that matters most in\nschool and in life: asking a great question and chasing it somewhere interesting. By the end, students won't just have answers. They'll have better questions — and the confidence to act on them.",
+      "teachingArtist": {
+        "id": "recI5GNJ7IGTUu2eO",
+        "name": "Wendy Chapin"
+      },
+      "gradeLevel": "3-5",
+      "artForms": [
+        "Drama / Theater"
+      ],
+      "curriculumAreas": [
+        "Language Arts"
+      ],
+      "sessions": 8,
+      "anchorId": ""
+    },
+    {
       "id": "rec3X1oET5r505O2K",
       "title": "Cosmic Calendars: Charting Sun, Moon, and Seasons",
       "isNew": false,
@@ -183,26 +202,6 @@
         "Social-Emotional Learning"
       ],
       "sessions": 6,
-      "anchorId": ""
-    },
-    {
-      "id": "rec5ajVFQK4B2fKJn",
-      "title": "Finding the Math in Musical Patterns (Pre-K)",
-      "isNew": false,
-      "description": "By identifying and creating musical patterns, students connect with basic mathematical concepts in an entirely new way, cementing a greater, longer lasting understanding of patterns and how they shape our world. Students will identify patterns in familiar songs, and create and share simple patterns using body percussion.  Dr. Ratay guides students through this creative process, while demonstrating how mathematics and music intertwine to create patterns pleasing to the mind and the ear alike. ",
-      "teachingArtist": {
-        "id": "recundPRwlCDfHoza",
-        "name": "Beth Ratay"
-      },
-      "gradeLevel": " Pre-K",
-      "artForms": [
-        "Music",
-        "Movement"
-      ],
-      "curriculumAreas": [
-        "Mathematics"
-      ],
-      "sessions": 5,
       "anchorId": ""
     },
     {
@@ -267,19 +266,18 @@
     },
     {
       "id": "recGWpnGfB1rNT1h3",
-      "title": "The Music of Math and the Science of Sound",
+      "title": "The Science of Sound",
       "isNew": false,
-      "description": "In this residency, students will explore various ways that sound can be created, and how math and measurements work together to create multiple pitches on a single musical string (monochord). When students actively determine how sound and pitch work, they will make important scientific connections, while exercising their measurement, data collection and data organization skills. The exploration of the monochord also serves as an introduction to or review of fractional representation. After learning how a single string can be divided to create different pitches, students will create a short piece of music using the newly discovered properties of the monochord.",
+      "description": "In this residency, students will explore various ways that sound can be created, and how to measure different lengths of a string, and how to determine the frequency or pitch of the string using sonic tools. Students will work together to find multiple pitches on a single musical string (monochord). When students actively determine how sound and pitch work, they will make important scientific connections, while exercising their measurement, data collection and data organization skills. After finding and measuring different pitches on the monochord, students will create a short piece of music using the newly discovered properties of the monochord. Dr. Ratay, musician, composer and educator, leads students on this journey of discovery and creation. ",
       "teachingArtist": {
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
-      "gradeLevel": "4-6",
+      "gradeLevel": "6-8",
       "artForms": [
         "Music"
       ],
       "curriculumAreas": [
-        "Mathematics",
         "Physical Science"
       ],
       "sessions": 5,
@@ -289,12 +287,12 @@
       "id": "recIFrIKi2nOfXjmk",
       "title": "Mathematics Gets the Blues",
       "isNew": false,
-      "description": "Students will work together to write a blues song using the established lyric and musical pattern of that form. Along the way they will create and discover patterns and repetitions in groupings of 4, laying the foundations for addition and multiplication. By practicing these musical patterns within the metric framework, students will connect with these basic mathematical concepts in an entirely new way, cementing a greater, longer lasting understanding.",
+      "description": "Students will work together to write a blues song about mathematical concepts they have already learned in class by using the established lyric and musical pattern of that form. Along the way they will create and discover patterns and repetitions in groupings of 4, laying the foundations for addition and multiplication. By practicing these musical patterns within the metric framework, students will connect with these basic mathematical concepts in an entirely new way, cementing a greater, longer lasting understanding.",
       "teachingArtist": {
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
-      "gradeLevel": "1-3",
+      "gradeLevel": "1-2",
       "artForms": [
         "Music"
       ],
@@ -302,7 +300,7 @@
         "Mathematics",
         "Language Arts"
       ],
-      "sessions": 6,
+      "sessions": 5,
       "anchorId": ""
     },
     {
@@ -445,20 +443,20 @@
     },
     {
       "id": "recWEcFWQlGd677eu",
-      "title": "Exploring New Mexico History through Song",
-      "isNew": false,
-      "description": "When students create a piece of music about a historical subject, they greatly increase their comprehension of the subject, and gain important learning skills. In this residency, students will work together to create a corrido (ballad) about Rafael Chacón in the Battle of Valverde, or any important figure or event in New Mexican history. Dr. Beth Ratay, an experienced composer and scholar of world musics, leads this session, focusing on students’ ability to synthesize historical facts into a deeper understanding of how these events shape our collective and individual lives. ",
+      "title": "Exploring History through Songwriting",
+      "isNew": true,
+      "description": "Turn what your students are already learning into music they'll never forget. Whether it's a unit on New Mexican history, or any other topic your class has been exploring, this residency transforms that existing knowledge into an original corrido (ballad).\n\nWhen students create a piece of music about a subject they're already studying, they greatly increase their comprehension of that content and gain important learning skills. In this residency, students will work together to create a corrido based on material from their current classroom studies whether a historical figure or event, a book they've read, or another subject their teacher identifies. Dr. Beth Ratay, an experienced composer and scholar of world musics, leads this session, guiding students to synthesize what they already know, drawing on notes, journals, discussions and other types of class work, into a deeper, more personal understanding of the material through the art of storytelling in song.",
       "teachingArtist": {
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
-      "gradeLevel": "5-12",
+      "gradeLevel": "3-8",
       "artForms": [
         "Music"
       ],
       "curriculumAreas": [
-        "New Mexico History",
-        "Language Arts"
+        "Language Arts",
+        "Social Studies"
       ],
       "sessions": 5,
       "anchorId": ""
@@ -681,14 +679,14 @@
     },
     {
       "id": "rectAQ81IaFG3HInu",
-      "title": "Finding the Math in Musical Patterns (Kindergarten)",
+      "title": "Finding the Math in Musical Patterns",
       "isNew": false,
-      "description": "By identifying and creating musical patterns, students connect with basic mathematical concepts in an entirely new way, cementing a greater, longer lasting understanding of patterns and how they shape our world. Students will identify patterns in familiar songs, and create and share simple patterns using body percussion.  Dr. Ratay guides students through this creative process, while demonstrating how mathematics and music intertwine to create patterns pleasing to the mind and the ear alike. ",
+      "description": "By identifying and creating musical patterns, students connect with basic mathematical concepts in an entirely new way, cementing a greater, longer lasting understanding of patterns and how they shape our world. Students will identify patterns in familiar songs and create and share simple patterns using musical instruments and body percussion. Dr. Ratay guides students through this creative process, while demonstrating how mathematics and music intertwine to create patterns pleasing to the mind and the ear alike.",
       "teachingArtist": {
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
-      "gradeLevel": " K",
+      "gradeLevel": "Pre-K & K",
       "artForms": [
         "Music",
         "Movement"
@@ -697,6 +695,25 @@
         "Mathematics"
       ],
       "sessions": 3,
+      "anchorId": ""
+    },
+    {
+      "id": "recuEQyct6wKOsMiw",
+      "title": "The Music of Math",
+      "isNew": true,
+      "description": "In this residency, students will explore how the site or length of an instrument changes the pitch or frequency of a sound, and learn about how to work with fractions by using pre-measured monochords (a one string instrument) to get hands on, practical experience with counting and using fractions. When students make auditory connections with how fractions work, they make mental connections in a way that is outside typical math learning experiences. Throughout this process students will improvise and compose a short pieces of music using the newly discovered properties of the monochord and other instruments. Dr. Ratay, musician, composer and educator, leads students on this journey of discovery and creation. ",
+      "teachingArtist": {
+        "id": "recundPRwlCDfHoza",
+        "name": "Beth Ratay"
+      },
+      "gradeLevel": "4-6",
+      "artForms": [
+        "Music"
+      ],
+      "curriculumAreas": [
+        "Mathematics"
+      ],
+      "sessions": 5,
       "anchorId": ""
     },
     {
