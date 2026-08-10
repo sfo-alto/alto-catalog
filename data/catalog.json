@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T18:10:00.128Z",
+  "generatedAt": "2026-08-10T20:25:35.741Z",
   "artists": [
     {
       "id": "rec0tmkEG7F8a1PJK",
@@ -638,7 +638,7 @@
     },
     {
       "id": "recro0uJLaYK7Zg1A",
-      "title": "Breathing Life into History",
+      "title": "Frozen in Time: Dramatizing History",
       "isNew": false,
       "description": "Step inside the moments that defined our world! In this immersive 8-session residency, 3rd through 5th graders will blend social studies research and physical theater to transform pivotal historical events into dynamic \"living statues\"—or tableaus. Working either across distinct historic milestones or deep within key moments of a single event, students will analyze historical perspective, spatial tension, and emotional impact to build frozen dramatic scenes. Paired with original student-written narration, these living snapshots will give voice to the figures of the past, turning static textbook timelines into vivid, multidimensional history brought to life on stage.",
       "teachingArtist": {
@@ -651,7 +651,8 @@
       ],
       "curriculumAreas": [
         "New Mexico History",
-        "Language Arts"
+        "Language Arts",
+        "Social Studies"
       ],
       "sessions": 8,
       "anchorId": ""
