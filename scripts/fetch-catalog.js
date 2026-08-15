@@ -121,7 +121,7 @@ async function main() {
       "Target Grade Level",
       "Art Form(s)",
       "Connected Curriculum Area(s)",
-      "Number of Sessions",
+      "Sessions",
       "Anchor ID",
     ],
   });
@@ -142,7 +142,7 @@ async function main() {
       gradeLevel: f["Target Grade Level"] || "",
       artForms: f["Art Form(s)"] || [],
       curriculumAreas: f["Connected Curriculum Area(s)"] || [],
-      sessions: f["Number of Sessions"] ?? null,
+      sessions: f["Sessions"] ?? null,
       anchorId: f["Anchor ID"] || "",
     });
   }
