@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T14:19:02.619Z",
+  "generatedAt": "2026-08-21T17:01:57.049Z",
   "artists": [
     {
       "id": "rec0tmkEG7F8a1PJK",
@@ -7,6 +7,13 @@
       "artForm": "Music",
       "bio": "Ivy Ross is devoted to a collaborative and creative vision of an emergent equitable world. She is a nationally recognized facilitator, musician, writer, and educator who addresses challenging social and environmental issues with compassion, critical thinking, playfulness, and flexibility, and she currently serves as the Director of Education for the Santa Fe Chamber Music Festival. She has served as consultant, facilitator, and performing artist for a multitude of organizations nationwide including: Children’s Defense Fund; Columbia Hospital For Women; Teachers & Writers Collaborative; Young Audiences; Children’s Cancer Association: MyMusicRX; the Anti-Defamation League, and The Boys & Girls Club. She is a certified Mindfulness Meditation Instructor, Hatha Yoga Teacher, Student Success Coach, and A World Of Difference Institute Trainer. Classroom teacher Emily Wahl says of Ivy, “She brings an attentive, gentle, cheerful, and patient attitude to teaching. It is clear that she finds inspiration in the responses of the children to the music, and gladly and adeptly incorporates their ideas. She is a joy to work with and the children respond with great affection and enjoyment to her sweet and fun style of teaching.”\n",
       "photo": "photos/ivy-ross-8a1PJK.jpg"
+    },
+    {
+      "id": "recCqd9V73ok4rglX",
+      "name": "Heather Herd",
+      "artForm": "Drama / Theater",
+      "bio": "Heather Herd is a classroom educator and teaching artist dedicated to student-centered learning, especially through movement, role-playing, and storytelling. She holds a B.A. in Dramatic Arts and Literature from Principia College and a Master’s Degree in Instruction and Curriculum from Kean University. Recognized for her creative approach to education, Heather was named a runner-up for the National Museum of Mathematics’ Rosenthal Award for Innovation in Math Teaching in 2015. She also designed a unit which is featured in the online course “21st Century Teaching and Learning” by Stanford Professor Jo Boaler, author of Limitless Mind and Mathematical Mindsets. Heather’s extensive background includes teaching K–8 across public, charter, and private schools in New Jersey and New Mexico—including Red River, Taos, and Santa Fe—as well as collaborating with the Lincoln Center Institute in New York City and Santa Fe's ALTO program. Heather thrives on sharing her creative energy in the classroom, helping students demonstrate understanding by bringing learning to life. \n",
+      "photo": "photos/heather-herd-k4rglX.jpg"
     },
     {
       "id": "recI5GNJ7IGTUu2eO",
@@ -535,6 +542,25 @@
         "Language Arts"
       ],
       "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recgHx9Eh4hprKgBS",
+      "title": "Act it Out! – Words Come Alive in Theater",
+      "isNew": true,
+      "description": "Students get on their feet and explore how words work in this literacy residency for 3rd and 4th graders, using theater as the learning vehicle. In Sessions 1–3, students build foundational acting skills — body, voice, imagination — through ensemble-building theater games. In Sessions 4–6, they apply those skills to create original skits that bring morphemes to life, strengthening vocabulary and word-analysis skills while building confidence and collaboration.\nFor their final product, small groups perform skits dramatizing the meaning of an assigned prefixed word (e.g., rewrite, dishonest). Students then \"break character\" to teach the audience how to break the word into its prefix and base, and explain how the prefix changes the meaning of the word — turning word study into a public-teaching moment for the whole class.",
+      "teachingArtist": {
+        "id": "recCqd9V73ok4rglX",
+        "name": "Heather Herd"
+      },
+      "gradeLevel": "3-4",
+      "artForms": [
+        "Drama / Theater"
+      ],
+      "curriculumAreas": [
+        "Language Arts"
+      ],
+      "sessions": 6,
       "anchorId": ""
     },
     {
