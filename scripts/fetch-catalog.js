@@ -86,6 +86,10 @@ async function main() {
     fields: ["Name", "Main Art Form", "Biographical Sketch", "Profile Photo"],
   });
 
+  console.log(
+    `Fetched ${artistRecords.length} teaching artists with Current ALTO LOA.`
+  );
+
   const artistsById = {};
   for (const rec of artistRecords) {
     const f = rec.fields;
@@ -126,12 +130,30 @@ async function main() {
     ],
   });
 
+  console.log(
+    `Fetched ${residencyRecords.length} Available residency records from Airtable.`
+  );
+  console.log("Residencies returned by Airtable:");
+  for (const rec of residencyRecords) {
+    console.log(`- ${rec.fields["Residency Title"] || "(untitled)"} [${rec.id}]`);
+  }
+
   const residencies = [];
   for (const rec of residencyRecords) {
     const f = rec.fields;
     const taId = f["Teaching Artist"]?.[0];
     const artist = taId ? artistsById[taId] : null;
-    if (!artist) continue; // linked TA doesn't currently have an LOA — hide residency
+    if (!artist) {
+      const title = f["Residency Title"] || "(untitled)";
+      if (!taId) {
+        console.warn(`SKIPPED: "${title}" — no Teaching Artist linked.`);
+      } else {
+        console.warn(
+          `SKIPPED: "${title}" — linked Teaching Artist ${taId} was not returned by the Current ALTO LOA query.`
+        );
+      }
+      continue;
+    }
 
     residencies.push({
       id: rec.id,
