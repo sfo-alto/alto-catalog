@@ -31,7 +31,7 @@
   .marquee{
     background:linear-gradient(180deg,var(--plum) 0%,var(--plum-dark) 100%);
     color:var(--cream);
-    padding:2.6rem 1.5rem 2.2rem;
+    padding:2.6rem 1.5rem 2.4rem;
     text-align:center;
     position:relative;
     overflow:hidden;
@@ -66,50 +66,10 @@
     position:relative;
   }
 
-  .tabs{
-    display:flex;
-    justify-content:center;
-    gap:0.5rem;
-    margin:1.6rem auto 0;
-    max-width:520px;
-    padding:0 1rem;
-    position:relative;
-  }
-  .tab{
-    flex:1;
-    font-family:'JetBrains Mono',monospace;
-    font-size:0.72rem;
-    letter-spacing:0.06em;
-    text-transform:uppercase;
-    background:rgba(246,239,221,0.08);
-    color:var(--cream);
-    border:1px solid rgba(246,239,221,0.35);
-    border-radius:999px;
-    padding:0.6rem 0.8rem;
-    cursor:pointer;
-    transition:background 0.2s ease, color 0.2s ease;
-  }
-  .tab.active{
-    background:var(--marigold);
-    border-color:var(--marigold);
-    color:var(--plum-dark);
-    font-weight:600;
-  }
-  .tab:focus-visible{outline:2px solid var(--cream); outline-offset:2px;}
-
   main{
     max-width:760px;
     margin:0 auto;
-    padding:2rem 1.25rem 3rem;
-  }
-
-  .section-label{
-    font-family:'JetBrains Mono',monospace;
-    font-size:0.72rem;
-    letter-spacing:0.1em;
-    text-transform:uppercase;
-    color:var(--turquoise-dark);
-    margin:0 0 1.2rem;
+    padding:2.2rem 1.25rem 3rem;
   }
 
   .group-block{margin-bottom:1.8rem;}
@@ -180,7 +140,6 @@
     color:var(--cream);
   }
   .icon svg{width:20px;height:20px;}
-  .card.placeholder .icon{background:var(--marigold);}
 
   .card-body{flex:1 1 auto; min-width:0;}
   .card-title{
@@ -196,16 +155,6 @@
     color:rgba(31,42,36,0.62);
     margin:0;
     line-height:1.35;
-  }
-  .todo-tag{
-    font-family:'JetBrains Mono',monospace;
-    font-size:0.62rem;
-    letter-spacing:0.05em;
-    text-transform:uppercase;
-    background:rgba(201,122,43,0.15);
-    color:var(--marigold);
-    padding:0.1rem 0.4rem;
-    border-radius:4px;
   }
 
   footer{
@@ -226,14 +175,9 @@
   <div class="eyebrow">Santa Fe Opera · ALTO</div>
   <h1>Quick Links</h1>
   <p class="sub">Everything you need for the 2026–27 residency season, one tap away.</p>
-  <div class="tabs">
-    <button class="tab active" data-audience="ta" id="tab-ta">Teaching Artists</button>
-    <button class="tab" data-audience="staff" id="tab-staff">Staff &amp; Coordinators</button>
-  </div>
 </div>
 
 <main>
-  <p class="section-label" id="section-label">For Teaching Artists</p>
   <div id="content"></div>
 </main>
 
@@ -247,8 +191,7 @@ const ICONS = {
   calendar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>',
   globe: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
   folder: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>',
-  doc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>',
-  database: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5M3 12a9 3 0 0 0 18 0"/></svg>'
+  doc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>'
 };
 
 const GROUP_META = {
@@ -258,69 +201,44 @@ const GROUP_META = {
 };
 
 const LINKS = [
-  // ---- Teaching Artists ----
-  { audience:'ta', group:'reference', title:'ALTO Splash Page', desc:'Program overview on the SFO site — handy if a teacher asks.', icon:'globe', url:'https://www.santafeopera.org/alto/' },
-  { audience:'ta', group:'reference', title:'Public ALTO Catalog', desc:'Live residency + TA catalog site.', icon:'globe', url:'https://sfo-alto.github.io/alto-catalog/' },
-  { audience:'ta', group:'reference', title:'Teacher Information Sheet', desc:'What teachers receive before your residency starts.', icon:'doc', url:'https://www.santafeopera.org/alto-teacher-information-page/' },
-  { audience:'ta', group:'reference', title:'Residency Request Form', desc:'How teachers request a residency — for reference.', icon:'form', url:'https://airtable.com/appvIZeFTshTXHIBt/pagepreN8MnXKo65C/form' },
-  { audience:'ta', group:'live', title:'Residency Calendar View', desc:'Live scheduling view, all districts.', icon:'calendar', url:'https://tinyurl.com/ALTOLive26' },
-  { audience:'ta', group:'planning', title:'District Calendars 2026–27', desc:'School calendars for every partner district.', icon:'folder', url:'https://drive.google.com/drive/folders/1i8s7YZ5eTYc9IH0WPh82QlthMVSpyGxr?usp=sharing' },
-  { audience:'ta', group:'planning', title:'Residency Planning Handout', desc:'Aug 2022 planning guide — still the reference doc.', icon:'doc', url:'https://drive.google.com/file/d/1EWdGSq8KV_FJwmvlI-AeFVWOA5S8hyCi/view?usp=sharing' },
-  { audience:'ta', group:'planning', title:'NM State Content Standards', desc:'Official state-adopted content standards.', icon:'globe', url:'https://web.ped.nm.gov/bureaus/instructional-materials/new-mexico-adopted-content-standards/' },
+  { group:'reference', title:'ALTO Splash Page', desc:'Program overview on the SFO site — handy if a teacher asks.', icon:'globe', url:'https://www.santafeopera.org/alto/' },
+  { group:'reference', title:'Public ALTO Catalog', desc:'Live residency + TA catalog site.', icon:'globe', url:'https://sfo-alto.github.io/alto-catalog/' },
+  { group:'reference', title:'Teacher Information Sheet', desc:'What teachers receive before your residency starts.', icon:'doc', url:'https://www.santafeopera.org/alto-teacher-information-page/' },
+  { group:'reference', title:'Residency Request Form', desc:'How teachers request a residency — for reference.', icon:'form', url:'https://airtable.com/appvIZeFTshTXHIBt/pagepreN8MnXKo65C/form' },
 
-  // ---- Staff & Coordinators ----
-  { audience:'staff', title:'Residency Calendar View', desc:'Live scheduling view, all districts.', icon:'calendar', url:'https://tinyurl.com/ALTOLive26' },
-  { audience:'staff', title:'Public ALTO Catalog', desc:'Live residency + TA catalog site.', icon:'globe', url:'https://sfo-alto.github.io/alto-catalog/' },
-  { audience:'staff', title:'ALTO Splash Page', desc:'Program overview on the SFO site.', icon:'globe', url:'https://www.santafeopera.org/alto/' },
-  { audience:'staff', title:'Residency Request Form', desc:'Teachers submit new residency requests here.', icon:'form', url:'https://airtable.com/appvIZeFTshTXHIBt/pagepreN8MnXKo65C/form' },
+  { group:'live', title:'Residency Calendar View', desc:'Live scheduling view, all districts.', icon:'calendar', url:'https://tinyurl.com/ALTOLive26' },
+
+  { group:'planning', title:'District Calendars 2026–27', desc:'School calendars for every partner district.', icon:'folder', url:'https://drive.google.com/drive/folders/1i8s7YZ5eTYc9IH0WPh82QlthMVSpyGxr?usp=sharing' },
+  { group:'planning', title:'Residency Planning Handout', desc:'Aug 2022 planning guide — still the reference doc.', icon:'doc', url:'https://drive.google.com/file/d/1EWdGSq8KV_FJwmvlI-AeFVWOA5S8hyCi/view?usp=sharing' },
+  { group:'planning', title:'NM State Content Standards', desc:'Official state-adopted content standards.', icon:'globe', url:'https://web.ped.nm.gov/bureaus/instructional-materials/new-mexico-adopted-content-standards/' },
+  { group:'planning', title:'Workflow Folder', desc:'Process docs and workflow resources.', icon:'folder', url:'https://tinyurl.com/ALTOworkflow2026' },
 ];
 
 const content = document.getElementById('content');
-const sectionLabel = document.getElementById('section-label');
-const tabs = document.querySelectorAll('.tab');
 
 function cardHTML(l){
-  return `<a href="${l.url}" target="_blank" rel="noopener noreferrer" class="card${l.placeholder ? ' placeholder' : ''}">
+  return `<a href="${l.url}" target="_blank" rel="noopener noreferrer" class="card">
       <div class="icon">${ICONS[l.icon] || ICONS.doc}</div>
       <div class="card-body">
-        <p class="card-title">${l.title}${l.placeholder ? '<span class="todo-tag">verify link</span>' : ''}</p>
+        <p class="card-title">${l.title}</p>
         <p class="card-desc">${l.desc}</p>
       </div>
     </a>`;
 }
 
-function render(audience){
+function render(){
   content.innerHTML = '';
-  const items = LINKS.filter(l => l.audience === audience);
-
-  if(audience === 'ta'){
-    ['reference','live','planning'].forEach(g => {
-      const groupItems = items.filter(i => i.group === g);
-      if(!groupItems.length) return;
-      const wrap = document.createElement('div');
-      wrap.className = 'group-block';
-      wrap.innerHTML = `<p class="group-label">${GROUP_META[g].title}</p><div class="grid">${groupItems.map(cardHTML).join('')}</div>`;
-      content.appendChild(wrap);
-    });
-  } else {
+  ['reference','live','planning'].forEach(g => {
+    const groupItems = LINKS.filter(i => i.group === g);
+    if(!groupItems.length) return;
     const wrap = document.createElement('div');
-    wrap.className = 'grid';
-    wrap.innerHTML = items.map(cardHTML).join('');
+    wrap.className = 'group-block';
+    wrap.innerHTML = `<p class="group-label">${GROUP_META[g].title}</p><div class="grid">${groupItems.map(cardHTML).join('')}</div>`;
     content.appendChild(wrap);
-  }
+  });
 }
 
-tabs.forEach(tab => {
-  tab.addEventListener('click', () => {
-    tabs.forEach(t => t.classList.remove('active'));
-    tab.classList.add('active');
-    const audience = tab.dataset.audience;
-    sectionLabel.textContent = audience === 'ta' ? 'For Teaching Artists' : 'For Staff & Coordinators';
-    render(audience);
-  });
-});
-
-render('ta');
+render();
 </script>
 
 </body>
