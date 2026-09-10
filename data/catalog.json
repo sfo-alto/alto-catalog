@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T22:35:26.958Z",
+  "generatedAt": "2026-09-10T01:07:14.895Z",
   "artists": [
     {
       "id": "rec0tmkEG7F8a1PJK",
@@ -28,13 +28,6 @@
       "artForm": "Visual Art: Drawing / Painting",
       "bio": "Liberty Yablon is a sculptor, photographer and illustrator, born and raised in Santa Fe. She’s Also lived in Los Angeles where she worked in fashion design and film production. She loves to sew and design extravagant costumes. In downtime she crochets and loves time in nature. Before becoming a workshop leader with the Alto program, as well as ArtWorks, she taught art and theater full time for SFPS. She was an early member of art collective Meow Wolf and created immersive art experiences with them for 5 years. She’s passionate about teaching and loves working with students of all ages and backgrounds.\n",
       "photo": "photos/liberty-yablon-y7cw44.jpg"
-    },
-    {
-      "id": "recSjglHcqb3FCdTZ",
-      "name": "Michelle Holdt",
-      "artForm": "Visual Art: Multimedia",
-      "bio": "Michelle Holdt is an enthusiastic arts integration specialist and leader with a strong commitment to leading an arts rich life and making creative practice available for all children. She has over 20 years experience in arts education as a drama teacher, professional development leader, and arts administrator in a wide variety of educational settings. She was the Arts and Restorative Learning Coordinator at the San Mateo County Office of Ed and holds a Masters and Credential in Educational Administration from San Francisco State University, an Art Integration Certificate with The Alliance for Arts Learning Leadership, a BA in Drama and Human Development from Harvard University, a Masters in Theatre and Dance from the University of New Mexico, and a clear K-8 multiple subject credential from New College of California in San Francisco.\n",
-      "photo": "photos/michelle-holdt-3FCdTZ.jpg"
     },
     {
       "id": "recUP8ZJB3MhDdZKi",
@@ -134,27 +127,6 @@
       "anchorId": ""
     },
     {
-      "id": "rec1fcfYEzKiz2GPG",
-      "title": "Identity Investigation: An Exploration of Self and Community",
-      "isNew": false,
-      "description": "In this residency, students will explore self and community using \"arts based research.\" The residency begins with students building and constructing an \"artful journal\" with recycled materials and found paper ephemera. The journals then become a place to document their research on identity that ties to grade level appropriate NM social studies standards. Students will also experience a handful of scaffolded creative practices such as found word poetry, blind contour drawing, collage, and practice interviews that will support their arts based research. Students creatively record all of their key findings  in their journals, and in closing share them with each other in class.",
-      "teachingArtist": {
-        "id": "recSjglHcqb3FCdTZ",
-        "name": "Michelle Holdt"
-      },
-      "gradeLevel": "3-6",
-      "artForms": [
-        "Visual Art: Multimedia"
-      ],
-      "curriculumAreas": [
-        "Social-Emotional Learning",
-        "Social Studies",
-        "Language Arts"
-      ],
-      "sessions": 5,
-      "anchorId": ""
-    },
-    {
       "id": "rec1hZNhFkElLLjPm",
       "title": "Wonder Works",
       "isNew": true,
@@ -251,27 +223,6 @@
       "anchorId": ""
     },
     {
-      "id": "recCDCQkU0BugGrTB",
-      "title": "Circles! In Art, Drama, Classroom, and Community",
-      "isNew": false,
-      "description": "In this residency, students will explore circles as a theme in both visual art, drama, and community circles. Students will engage in a set of scaffolded creative practices such as found spiral drawings, simple mandalas, and playing drama games in a circle, and they will host community conversations and circles. Students will creatively record all of their sketches and artwork in their journals, and in closing share them with each other in class.",
-      "teachingArtist": {
-        "id": "recSjglHcqb3FCdTZ",
-        "name": "Michelle Holdt"
-      },
-      "gradeLevel": " Pre-K to 2",
-      "artForms": [
-        "Visual Art: Drawing / Painting",
-        "Drama / Theater"
-      ],
-      "curriculumAreas": [
-        "Social Studies",
-        "Social-Emotional Learning"
-      ],
-      "sessions": 5,
-      "anchorId": ""
-    },
-    {
       "id": "recGWpnGfB1rNT1h3",
       "title": "The Science of Sound",
       "isNew": false,
@@ -327,27 +278,6 @@
         "Space Science"
       ],
       "sessions": 6,
-      "anchorId": ""
-    },
-    {
-      "id": "recKLyJrabetQ4ZNs",
-      "title": "The Passion Project, An Exploration of Self and Identity",
-      "isNew": false,
-      "description": "In this residency, students will explore a self-selected topic connected to their personal identity using \"experiential arts based research.\" The residency begins with students building and constructing an \"artful journal\" with recycled materials and found paper ephemera. The journals then become a place to document their research on identity that ties to grade level appropriate NM ELA standards. Students will participate in a handful of scaffolded creative practices such as found word poetry, blind contour drawing, and practice interviews as they begin their research. The students will then research on their own using “non-screen based” modes of learning including but not limited to: interviewing experts, having an experience, reading a book, observational drawings, and MORE! All of their key takeaways are creatively recorded in their journals and shared with each other on the final day of class.\n",
-      "teachingArtist": {
-        "id": "recSjglHcqb3FCdTZ",
-        "name": "Michelle Holdt"
-      },
-      "gradeLevel": "7-12",
-      "artForms": [
-        "Visual Art: Multimedia"
-      ],
-      "curriculumAreas": [
-        "Social Studies",
-        "Language Arts",
-        "Social-Emotional Learning"
-      ],
-      "sessions": 5,
       "anchorId": ""
     },
     {
@@ -581,26 +511,6 @@
         "Language Arts"
       ],
       "sessions": 8,
-      "anchorId": ""
-    },
-    {
-      "id": "reckNu8QaQ6VVJtMh",
-      "title": "Gelli Printing, Pop-Ups, & Accordion Books",
-      "isNew": true,
-      "description": "Do your students struggle to engage with classroom curriculum? In this hands-on residency students will learn how to Gelli print and build their own visual journals and pop-up accordion books. Using acrylic paints and Gelli Plates and different book building strategies, students will learn to make a book that will truly become their own. Those books will hold notes from class discussions, scribbles, poetry, collage, drawings, and MORE! \n\nAt the end of the residency, the class will share their journals and art work with a gallery walk and each student's highly individualized self-exploration & expression.",
-      "teachingArtist": {
-        "id": "recSjglHcqb3FCdTZ",
-        "name": "Michelle Holdt"
-      },
-      "gradeLevel": "4-8",
-      "artForms": [
-        "Visual Art: Multimedia"
-      ],
-      "curriculumAreas": [
-        "Social-Emotional Learning",
-        "Language Arts"
-      ],
-      "sessions": 5,
       "anchorId": ""
     },
     {
