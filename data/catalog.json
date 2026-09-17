@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T22:58:53.343Z",
+  "generatedAt": "2026-09-17T01:28:42.886Z",
   "artists": [
     {
       "id": "rec0tmkEG7F8a1PJK",
@@ -451,6 +451,26 @@
       ],
       "curriculumAreas": [
         "Language Arts"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recebXPIX3vlcmW9H",
+      "title": "Once Upon A Blues",
+      "isNew": true,
+      "description": "Students will explore the blues as both a historical art form and a living storytelling tradition. Through this residency, students will learn about the origins of the blues and its evolution as a form of cultural expression and resilience. Building on this historical foundation, students will then apply the structure and spirit of the blues to retell a familiar story (a folktale, myth, or beloved book) in blues form, exploring how rhythm, repetition, and call-and-response can carry narrative and emotion. This residency invites students to see history and literature not as separate from music, but as forms that music can carry, transform, and bring to life.",
+      "teachingArtist": {
+        "id": "recundPRwlCDfHoza",
+        "name": "Beth Ratay"
+      },
+      "gradeLevel": "3-4",
+      "artForms": [
+        "Music"
+      ],
+      "curriculumAreas": [
+        "Language Arts",
+        "Social Studies"
       ],
       "sessions": 5,
       "anchorId": ""
