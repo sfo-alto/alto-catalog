@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T22:37:05.150Z",
+  "generatedAt": "2026-09-18T23:23:49.501Z",
   "artists": [
     {
       "id": "rec0tmkEG7F8a1PJK",
@@ -7,13 +7,6 @@
       "artForm": "Music",
       "bio": "Ivy Ross is devoted to a collaborative and creative vision of an emergent equitable world. She is a nationally recognized facilitator, musician, writer, and educator who addresses challenging social and environmental issues with compassion, critical thinking, playfulness, and flexibility, and she currently serves as the Director of Education for the Santa Fe Chamber Music Festival. She has served as consultant, facilitator, and performing artist for a multitude of organizations nationwide including: Children’s Defense Fund; Columbia Hospital For Women; Teachers & Writers Collaborative; Young Audiences; Children’s Cancer Association: MyMusicRX; the Anti-Defamation League, and The Boys & Girls Club. She is a certified Mindfulness Meditation Instructor, Hatha Yoga Teacher, Student Success Coach, and A World Of Difference Institute Trainer. Classroom teacher Emily Wahl says of Ivy, “She brings an attentive, gentle, cheerful, and patient attitude to teaching. It is clear that she finds inspiration in the responses of the children to the music, and gladly and adeptly incorporates their ideas. She is a joy to work with and the children respond with great affection and enjoyment to her sweet and fun style of teaching.”\n",
       "photo": "photos/ivy-ross-8a1PJK.jpg"
-    },
-    {
-      "id": "recAf5LmjqrNObfBI",
-      "name": "La Emi",
-      "artForm": "Dance / Choreography",
-      "bio": "La Emi started studying Flamenco with the María Benítez Institute for Spanish Arts (ISA) when she was four years old and began working with the Institute’s youth company, Flamenco’s Next Generation, at the age of 10. At age 12, she started teaching within the Northern New Mexico public school system. She continued her love of teaching as an instructor at Moving Arts Española in 2005 and ISA in 2006. La Emi has danced with Juan Siddi Flamenco Santa Fe, Compañía Chuscales y Mina Fajardo, and EntreFlamenco, the company of Antonio Granjero and Estefania Ramirez. She also danced with the National Institute of Flamenco in their Summer Season at the Lodge at Santa Fe. She has annually toured with The Aspen Santa Fe Ballet Nutcracker since 2015. La Emi studied intensively in Spain with Gala Vivancos, Carmela Greco, Belén López, Mónica Fernández, La Choni, Anabel Moreno, and La Popi. She has performed under the direction of Carmela Greco, José Galván, and Torombo and at major venues, including the Carmela Greco Seminario de Flamenco y Danza Española and Café de Chinitas en Madrid; Cuevas Los Tarantos in the Sacromonte of Granada and the Teatro Alameda Festival Flamenco in Sevilla. She is also the founder and executive director at EmiArteFlamenco Academy whose mission is to empower children and adults through the art form of Flamenco.\n",
-      "photo": "photos/la-emi-NObfBI.jpg"
     },
     {
       "id": "recCqd9V73ok4rglX",
@@ -103,6 +96,13 @@
         "id": "recI5GNJ7IGTUu2eO",
         "name": "Wendy Chapin"
       },
+      "teachingArtists": [
+        {
+          "id": "recI5GNJ7IGTUu2eO",
+          "name": "Wendy Chapin"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-5",
       "artForms": [
         "Drama / Theater"
@@ -111,6 +111,7 @@
         "Language Arts"
       ],
       "sessions": 8,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -122,6 +123,13 @@
         "id": "recuQdTxEE57EI1Qw",
         "name": "Kathleen Kingsley"
       },
+      "teachingArtists": [
+        {
+          "id": "recuQdTxEE57EI1Qw",
+          "name": "Kathleen Kingsley"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "4-6",
       "artForms": [
         "Dance / Choreography"
@@ -131,6 +139,7 @@
         "Language Arts"
       ],
       "sessions": 8,
+      "notes": "Recommended schedule: twice weekly for 4 weeks",
       "anchorId": ""
     },
     {
@@ -142,6 +151,13 @@
         "id": "recI5GNJ7IGTUu2eO",
         "name": "Wendy Chapin"
       },
+      "teachingArtists": [
+        {
+          "id": "recI5GNJ7IGTUu2eO",
+          "name": "Wendy Chapin"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-5",
       "artForms": [
         "Drama / Theater"
@@ -150,6 +166,7 @@
         "Language Arts"
       ],
       "sessions": 8,
+      "notes": "Students engage in inquiry-based learning through embodied drama techniques, developing skills in questioning, evidence-based reasoning, perspective-taking, and collaborative presentation.\"\n\nWonderworks engages students in inquiry based investigation aligned with ELA standards (research to build and present knowledge standard W 7 which spans grades 3-5.",
       "anchorId": ""
     },
     {
@@ -161,6 +178,13 @@
         "id": "recakSBljHNaAXUel",
         "name": "Moira Garcia"
       },
+      "teachingArtists": [
+        {
+          "id": "recakSBljHNaAXUel",
+          "name": "Moira Garcia"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "4-6",
       "artForms": [
         "Visual Art: Multimedia"
@@ -169,6 +193,7 @@
         "Space Science"
       ],
       "sessions": 8,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -180,6 +205,13 @@
         "id": "recuQdTxEE57EI1Qw",
         "name": "Kathleen Kingsley"
       },
+      "teachingArtists": [
+        {
+          "id": "recuQdTxEE57EI1Qw",
+          "name": "Kathleen Kingsley"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": " Pre-K & K",
       "artForms": [
         "Movement"
@@ -188,6 +220,7 @@
         "Social-Emotional Learning"
       ],
       "sessions": 6,
+      "notes": "Pre-K Sessions are 30 minutes long, Kinders 45-60. Recommended pacing: once per week for six weeks",
       "anchorId": ""
     },
     {
@@ -199,6 +232,13 @@
         "id": "recuQkrZKtphhJlr4",
         "name": "Randy Barron"
       },
+      "teachingArtists": [
+        {
+          "id": "recuQkrZKtphhJlr4",
+          "name": "Randy Barron"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "4-6",
       "artForms": [
         "Dance / Choreography"
@@ -208,6 +248,7 @@
         "Language Arts"
       ],
       "sessions": 6,
+      "notes": "Recommended schedule: twice weekly for three weeks",
       "anchorId": ""
     },
     {
@@ -219,6 +260,13 @@
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
+      "teachingArtists": [
+        {
+          "id": "recundPRwlCDfHoza",
+          "name": "Beth Ratay"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "9-12",
       "artForms": [
         "Music",
@@ -229,6 +277,7 @@
         "Social Studies"
       ],
       "sessions": 5,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -240,6 +289,13 @@
         "id": "recKqLeswgfy7cw44",
         "name": "Liberty Yablon"
       },
+      "teachingArtists": [
+        {
+          "id": "recKqLeswgfy7cw44",
+          "name": "Liberty Yablon"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "4",
       "artForms": [
         "Visual Art: Drawing / Painting"
@@ -248,6 +304,7 @@
         "Life Science"
       ],
       "sessions": 6,
+      "notes": "Calling all Scientists and Artists to join forces and Explore visual problem solving through botanical illustration! A creative and reflective approach to understanding symbiotic relationships, photosynthesis and habitat protection through thoughtfully constructed botanical illustrations.",
       "anchorId": ""
     },
     {
@@ -259,6 +316,13 @@
         "id": "recUP8ZJB3MhDdZKi",
         "name": "Nancy Morris-Judd"
       },
+      "teachingArtists": [
+        {
+          "id": "recUP8ZJB3MhDdZKi",
+          "name": "Nancy Morris-Judd"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "6-12",
       "artForms": [
         "Visual Art: Multimedia"
@@ -268,6 +332,7 @@
         "Social Studies"
       ],
       "sessions": 8,
+      "notes": "See planning note in description",
       "anchorId": ""
     },
     {
@@ -279,6 +344,13 @@
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
+      "teachingArtists": [
+        {
+          "id": "recundPRwlCDfHoza",
+          "name": "Beth Ratay"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "6-8",
       "artForms": [
         "Music"
@@ -287,6 +359,7 @@
         "Physical Science"
       ],
       "sessions": 5,
+      "notes": "Sessions should spread across 2-3 weeks for best effect",
       "anchorId": ""
     },
     {
@@ -298,6 +371,13 @@
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
+      "teachingArtists": [
+        {
+          "id": "recundPRwlCDfHoza",
+          "name": "Beth Ratay"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "1-2",
       "artForms": [
         "Music"
@@ -307,6 +387,7 @@
         "Language Arts"
       ],
       "sessions": 5,
+      "notes": "Sessions should be spread over 2-3 weeks.",
       "anchorId": ""
     },
     {
@@ -318,6 +399,13 @@
         "id": "recakSBljHNaAXUel",
         "name": "Moira Garcia"
       },
+      "teachingArtists": [
+        {
+          "id": "recakSBljHNaAXUel",
+          "name": "Moira Garcia"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "4-12",
       "artForms": [
         "Visual Art: Multimedia"
@@ -326,6 +414,7 @@
         "Space Science"
       ],
       "sessions": 6,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -337,6 +426,13 @@
         "id": "recI5GNJ7IGTUu2eO",
         "name": "Wendy Chapin"
       },
+      "teachingArtists": [
+        {
+          "id": "recI5GNJ7IGTUu2eO",
+          "name": "Wendy Chapin"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "2",
       "artForms": [
         "Drama / Theater",
@@ -346,6 +442,7 @@
         "Mathematics"
       ],
       "sessions": 3,
+      "notes": "These three sessions can be scheduled over one or two weeks.",
       "anchorId": ""
     },
     {
@@ -357,6 +454,13 @@
         "id": "recakSBljHNaAXUel",
         "name": "Moira Garcia"
       },
+      "teachingArtists": [
+        {
+          "id": "recakSBljHNaAXUel",
+          "name": "Moira Garcia"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "4-6",
       "artForms": [
         "Visual Art: Multimedia"
@@ -365,6 +469,7 @@
         "Space Science"
       ],
       "sessions": 5,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -376,6 +481,13 @@
         "id": "recuQkrZKtphhJlr4",
         "name": "Randy Barron"
       },
+      "teachingArtists": [
+        {
+          "id": "recuQkrZKtphhJlr4",
+          "name": "Randy Barron"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-5",
       "artForms": [
         "Dance / Choreography"
@@ -384,6 +496,7 @@
         "Mathematics"
       ],
       "sessions": 6,
+      "notes": "No prior dance experience is needed. This residency is fully inclusive, welcoming students of all abilities to participate and succeed.",
       "anchorId": ""
     },
     {
@@ -395,6 +508,13 @@
         "id": "recUuiD929X3fBwGj",
         "name": "Alejandro Jimenez"
       },
+      "teachingArtists": [
+        {
+          "id": "recUuiD929X3fBwGj",
+          "name": "Alejandro Jimenez"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "6-12",
       "artForms": [
         "Poetry / Creative Writing"
@@ -403,6 +523,7 @@
         "Language Arts"
       ],
       "sessions": 5,
+      "notes": "This residency is suitable for all humanities classes.",
       "anchorId": ""
     },
     {
@@ -414,6 +535,13 @@
         "id": "recuQdTxEE57EI1Qw",
         "name": "Kathleen Kingsley"
       },
+      "teachingArtists": [
+        {
+          "id": "recuQdTxEE57EI1Qw",
+          "name": "Kathleen Kingsley"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "2-3",
       "artForms": [
         "Dance / Choreography"
@@ -423,6 +551,7 @@
         "Language Arts"
       ],
       "sessions": 8,
+      "notes": "Recommended schedule: twice weekly for 4 weeks",
       "anchorId": ""
     },
     {
@@ -434,6 +563,13 @@
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
+      "teachingArtists": [
+        {
+          "id": "recundPRwlCDfHoza",
+          "name": "Beth Ratay"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-8",
       "artForms": [
         "Music"
@@ -443,6 +579,7 @@
         "Social Studies"
       ],
       "sessions": 5,
+      "notes": "The five sessions take place over 2-3 weeks",
       "anchorId": ""
     },
     {
@@ -454,6 +591,13 @@
         "id": "recWINmsmuzoEIRb6",
         "name": "Delia St. Louis"
       },
+      "teachingArtists": [
+        {
+          "id": "recWINmsmuzoEIRb6",
+          "name": "Delia St. Louis"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": " Pre-K to 2",
       "artForms": [
         "Visual Art: Collage, Mixed Media",
@@ -463,6 +607,7 @@
         "Social-Emotional Learning"
       ],
       "sessions": 5,
+      "notes": "Grades 3-5 coming soon!",
       "anchorId": ""
     },
     {
@@ -474,6 +619,13 @@
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
+      "teachingArtists": [
+        {
+          "id": "recundPRwlCDfHoza",
+          "name": "Beth Ratay"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "Pre-K to 2",
       "artForms": [
         "Music",
@@ -483,6 +635,7 @@
         "Language Arts"
       ],
       "sessions": 5,
+      "notes": "Sessions run 25 minutes for Pre-K and K, 45 minutes for Grades 1-2",
       "anchorId": ""
     },
     {
@@ -494,6 +647,13 @@
         "id": "recuQdTxEE57EI1Qw",
         "name": "Kathleen Kingsley"
       },
+      "teachingArtists": [
+        {
+          "id": "recuQdTxEE57EI1Qw",
+          "name": "Kathleen Kingsley"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": " K-3",
       "artForms": [
         "Movement"
@@ -502,6 +662,7 @@
         "Physical Education"
       ],
       "sessions": 5,
+      "notes": "Sessions are 60 minutes",
       "anchorId": ""
     },
     {
@@ -513,6 +674,13 @@
         "id": "recsGPbtNI66CWkx5",
         "name": "Darryl Lorenzo Wellington"
       },
+      "teachingArtists": [
+        {
+          "id": "recsGPbtNI66CWkx5",
+          "name": "Darryl Lorenzo Wellington"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-12",
       "artForms": [
         "Poetry / Creative Writing"
@@ -521,6 +689,7 @@
         "Language Arts"
       ],
       "sessions": 5,
+      "notes": "Designed to meet the needs of a wide range of grade levels, this flexible residency is ideal for classrooms focusing on writing development, and it also complements cross-disciplinary learning in social studies, the arts, and more.",
       "anchorId": ""
     },
     {
@@ -532,6 +701,13 @@
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
+      "teachingArtists": [
+        {
+          "id": "recundPRwlCDfHoza",
+          "name": "Beth Ratay"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-4",
       "artForms": [
         "Music"
@@ -541,6 +717,7 @@
         "Social Studies"
       ],
       "sessions": 5,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -552,6 +729,13 @@
         "id": "recsGPbtNI66CWkx5",
         "name": "Darryl Lorenzo Wellington"
       },
+      "teachingArtists": [
+        {
+          "id": "recsGPbtNI66CWkx5",
+          "name": "Darryl Lorenzo Wellington"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-12",
       "artForms": [
         "Poetry / Creative Writing"
@@ -560,6 +744,7 @@
         "Language Arts"
       ],
       "sessions": 5,
+      "notes": "This flexible residency can be adapted for students from elementary through high school and works well not only in English language arts classrooms, but also in cross-disciplinary settings such as dance, music, history, social studies, and even science.",
       "anchorId": ""
     },
     {
@@ -571,6 +756,13 @@
         "id": "recCqd9V73ok4rglX",
         "name": "Heather Herd"
       },
+      "teachingArtists": [
+        {
+          "id": "recCqd9V73ok4rglX",
+          "name": "Heather Herd"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-4",
       "artForms": [
         "Drama / Theater"
@@ -579,6 +771,7 @@
         "Language Arts"
       ],
       "sessions": 6,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -590,6 +783,13 @@
         "id": "recI5GNJ7IGTUu2eO",
         "name": "Wendy Chapin"
       },
+      "teachingArtists": [
+        {
+          "id": "recI5GNJ7IGTUu2eO",
+          "name": "Wendy Chapin"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-6",
       "artForms": [
         "Drama / Theater"
@@ -599,6 +799,7 @@
         "Language Arts"
       ],
       "sessions": 8,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -610,6 +811,13 @@
         "id": "recuQdTxEE57EI1Qw",
         "name": "Kathleen Kingsley"
       },
+      "teachingArtists": [
+        {
+          "id": "recuQdTxEE57EI1Qw",
+          "name": "Kathleen Kingsley"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "7-8",
       "artForms": [
         "Dance / Choreography"
@@ -619,26 +827,7 @@
         "New Mexico History"
       ],
       "sessions": 8,
-      "anchorId": ""
-    },
-    {
-      "id": "reclvbbqmGtiYHjW9",
-      "title": "El Camino Real de Flamenco: A Journey to New Mexico",
-      "isNew": true,
-      "description": "Follow in the footsteps of the dancers, singers, and musicians who carried flamenco from Asia, Arabia, and Europe to New Mexico, where it thrives today in its adopted Land of Enchantment. Students learn the compás and contratiempos of tangos and bulerías through palmas, collaborate to write letras (song verses), and use every element to build a living, moving timeline of flamenco's journey. They will answer the guiding question \"How did flamenco get to New Mexico — and what did it carry, lose, and gain along the way?\" through the art form itself.\n \nThis residency meets 7th grade Social Studies standards on how people, goods, and ideas moved into New Mexico and how cultural groups maintain heritage while adapting, using flamenco as a living case study. Renowned flamenco artists La Emi and Vicente Griego of Santa Fe's EmiArte Flamenco lead this exploration of history through the arts.",
-      "teachingArtist": {
-        "id": "recAf5LmjqrNObfBI",
-        "name": "La Emi"
-      },
-      "gradeLevel": "7, 9-12",
-      "artForms": [
-        "Dance / Choreography",
-        "Music"
-      ],
-      "curriculumAreas": [
-        "Social Studies"
-      ],
-      "sessions": 8,
+      "notes": "This residency requires that students have some familiarity with working effectively in groups as well as comprehension skills, especially reading for information, synthesizing and verbally sharing. This aspect will require extra time outside of the residency contact hours. Teacher involvement is key. ",
       "anchorId": ""
     },
     {
@@ -650,6 +839,13 @@
         "id": "recKqLeswgfy7cw44",
         "name": "Liberty Yablon"
       },
+      "teachingArtists": [
+        {
+          "id": "recKqLeswgfy7cw44",
+          "name": "Liberty Yablon"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "7",
       "artForms": [
         "Visual Art: Multimedia"
@@ -658,6 +854,7 @@
         "Social Studies"
       ],
       "sessions": 6,
+      "notes": "This residency is especially aimed at south-side Santa Fe Public Middle Schools, because a field trip to view the petroglyphs is part of the experience. Other schools are welcome to apply as well, with the note that a field trip may or may not be practical due to distances.",
       "anchorId": ""
     },
     {
@@ -669,6 +866,13 @@
         "id": "rec0tmkEG7F8a1PJK",
         "name": "Ivy Ross"
       },
+      "teachingArtists": [
+        {
+          "id": "rec0tmkEG7F8a1PJK",
+          "name": "Ivy Ross"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "4",
       "artForms": [
         "Music"
@@ -677,6 +881,7 @@
         "Life Science"
       ],
       "sessions": 5,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -688,6 +893,13 @@
         "id": "recI5GNJ7IGTUu2eO",
         "name": "Wendy Chapin"
       },
+      "teachingArtists": [
+        {
+          "id": "recI5GNJ7IGTUu2eO",
+          "name": "Wendy Chapin"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-5",
       "artForms": [
         "Drama / Theater"
@@ -698,6 +910,7 @@
         "Social Studies"
       ],
       "sessions": 8,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -709,6 +922,13 @@
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
+      "teachingArtists": [
+        {
+          "id": "recundPRwlCDfHoza",
+          "name": "Beth Ratay"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "Pre-K & K",
       "artForms": [
         "Music",
@@ -718,6 +938,7 @@
         "Mathematics"
       ],
       "sessions": 3,
+      "notes": "Sessions are 45 minutes each for this age group. See separate listing for pre-Kindergarten.",
       "anchorId": ""
     },
     {
@@ -729,6 +950,13 @@
         "id": "recundPRwlCDfHoza",
         "name": "Beth Ratay"
       },
+      "teachingArtists": [
+        {
+          "id": "recundPRwlCDfHoza",
+          "name": "Beth Ratay"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "4-6",
       "artForms": [
         "Music"
@@ -737,6 +965,7 @@
         "Mathematics"
       ],
       "sessions": 5,
+      "notes": "Sessions should spread across 2-3 weeks for best effect",
       "anchorId": ""
     },
     {
@@ -748,6 +977,13 @@
         "id": "recKqLeswgfy7cw44",
         "name": "Liberty Yablon"
       },
+      "teachingArtists": [
+        {
+          "id": "recKqLeswgfy7cw44",
+          "name": "Liberty Yablon"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "2-6",
       "artForms": [
         "Visual Art: Multimedia",
@@ -758,6 +994,7 @@
         "New Mexico History"
       ],
       "sessions": 7,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -769,6 +1006,13 @@
         "id": "recuQdTxEE57EI1Qw",
         "name": "Kathleen Kingsley"
       },
+      "teachingArtists": [
+        {
+          "id": "recuQdTxEE57EI1Qw",
+          "name": "Kathleen Kingsley"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "6-8",
       "artForms": [
         "Dance / Choreography"
@@ -778,6 +1022,7 @@
         "Language Arts"
       ],
       "sessions": 8,
+      "notes": "Recommended pacing: 2 sessions weekly for 4 weeks",
       "anchorId": ""
     },
     {
@@ -789,6 +1034,13 @@
         "id": "recuQdTxEE57EI1Qw",
         "name": "Kathleen Kingsley"
       },
+      "teachingArtists": [
+        {
+          "id": "recuQdTxEE57EI1Qw",
+          "name": "Kathleen Kingsley"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-5",
       "artForms": [
         "Dance / Choreography"
@@ -798,6 +1050,7 @@
         "Language Arts"
       ],
       "sessions": 8,
+      "notes": "",
       "anchorId": ""
     },
     {
@@ -809,6 +1062,13 @@
         "id": "recuQdTxEE57EI1Qw",
         "name": "Kathleen Kingsley"
       },
+      "teachingArtists": [
+        {
+          "id": "recuQdTxEE57EI1Qw",
+          "name": "Kathleen Kingsley"
+        }
+      ],
+      "artistAssignment": "Solo",
       "gradeLevel": "3-12",
       "artForms": [
         "Dance / Choreography"
@@ -818,6 +1078,7 @@
         "New Mexico History"
       ],
       "sessions": 8,
+      "notes": "",
       "anchorId": ""
     }
   ]
