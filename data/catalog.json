@@ -1,12 +1,26 @@
 {
-  "generatedAt": "2026-09-18T23:23:49.501Z",
+  "generatedAt": "2026-09-18T23:27:44.101Z",
   "artists": [
+    {
+      "id": "rec0tUTizGRNS5TYK",
+      "name": "Vicente Griego",
+      "artForm": "Music",
+      "bio": "Vicente Griego “El Cartucho” — From Dixon/Embudo, NM, Vicente has devoted his life to the study of Cante Flamenco. In 1999, he toured internationally with Jośe Greco II and was mentored by Alfonso Gabarri, “El Veneno.” Griego is a pupil of guitarist Jośe Valle and singer Jośe Fernández. Griego performs with Yjastros: The American Flamenco Repertory Company, and EmiArteFlamenco. He is lead singer in the rumba Flamenca band ReVóZo. Griego is also a faculty member at the University of New Mexico’s Theater and Dance Department. \n",
+      "photo": "photos/vicente-griego-NS5TYK.jpg"
+    },
     {
       "id": "rec0tmkEG7F8a1PJK",
       "name": "Ivy Ross",
       "artForm": "Music",
       "bio": "Ivy Ross is devoted to a collaborative and creative vision of an emergent equitable world. She is a nationally recognized facilitator, musician, writer, and educator who addresses challenging social and environmental issues with compassion, critical thinking, playfulness, and flexibility, and she currently serves as the Director of Education for the Santa Fe Chamber Music Festival. She has served as consultant, facilitator, and performing artist for a multitude of organizations nationwide including: Children’s Defense Fund; Columbia Hospital For Women; Teachers & Writers Collaborative; Young Audiences; Children’s Cancer Association: MyMusicRX; the Anti-Defamation League, and The Boys & Girls Club. She is a certified Mindfulness Meditation Instructor, Hatha Yoga Teacher, Student Success Coach, and A World Of Difference Institute Trainer. Classroom teacher Emily Wahl says of Ivy, “She brings an attentive, gentle, cheerful, and patient attitude to teaching. It is clear that she finds inspiration in the responses of the children to the music, and gladly and adeptly incorporates their ideas. She is a joy to work with and the children respond with great affection and enjoyment to her sweet and fun style of teaching.”\n",
       "photo": "photos/ivy-ross-8a1PJK.jpg"
+    },
+    {
+      "id": "recAf5LmjqrNObfBI",
+      "name": "La Emi",
+      "artForm": "Dance / Choreography",
+      "bio": "La Emi started studying Flamenco with the María Benítez Institute for Spanish Arts (ISA) when she was four years old and began working with the Institute’s youth company, Flamenco’s Next Generation, at the age of 10. At age 12, she started teaching within the Northern New Mexico public school system. She continued her love of teaching as an instructor at Moving Arts Española in 2005 and ISA in 2006. La Emi has danced with Juan Siddi Flamenco Santa Fe, Compañía Chuscales y Mina Fajardo, and EntreFlamenco, the company of Antonio Granjero and Estefania Ramirez. She also danced with the National Institute of Flamenco in their Summer Season at the Lodge at Santa Fe. She has annually toured with The Aspen Santa Fe Ballet Nutcracker since 2015. La Emi studied intensively in Spain with Gala Vivancos, Carmela Greco, Belén López, Mónica Fernández, La Choni, Anabel Moreno, and La Popi. She has performed under the direction of Carmela Greco, José Galván, and Torombo and at major venues, including the Carmela Greco Seminario de Flamenco y Danza Española and Café de Chinitas en Madrid; Cuevas Los Tarantos in the Sacromonte of Granada and the Teatro Alameda Festival Flamenco in Sevilla. She is also the founder and executive director at EmiArteFlamenco Academy whose mission is to empower children and adults through the art form of Flamenco.\n",
+      "photo": "photos/la-emi-NObfBI.jpg"
     },
     {
       "id": "recCqd9V73ok4rglX",
@@ -828,6 +842,38 @@
       ],
       "sessions": 8,
       "notes": "This residency requires that students have some familiarity with working effectively in groups as well as comprehension skills, especially reading for information, synthesizing and verbally sharing. This aspect will require extra time outside of the residency contact hours. Teacher involvement is key. ",
+      "anchorId": ""
+    },
+    {
+      "id": "reclvbbqmGtiYHjW9",
+      "title": "El Camino Real de Flamenco: A Journey to New Mexico",
+      "isNew": true,
+      "description": "Follow in the footsteps of the dancers, singers, and musicians who carried flamenco from Asia, Arabia, and Europe to New Mexico, where it thrives today in its adopted Land of Enchantment. Students learn the compás and contratiempos of tangos and bulerías through palmas, collaborate to write letras (song verses), and use every element to build a living, moving timeline of flamenco's journey. They will answer the guiding question \"How did flamenco get to New Mexico — and what did it carry, lose, and gain along the way?\" through the art form itself.\n \nThis residency meets 7th grade Social Studies standards on how people, goods, and ideas moved into New Mexico and how cultural groups maintain heritage while adapting, using flamenco as a living case study. Renowned flamenco artists La Emi and Vicente Griego of Santa Fe's EmiArte Flamenco lead this exploration of history through the arts.",
+      "teachingArtist": {
+        "id": "recAf5LmjqrNObfBI",
+        "name": "La Emi"
+      },
+      "teachingArtists": [
+        {
+          "id": "recAf5LmjqrNObfBI",
+          "name": "La Emi"
+        },
+        {
+          "id": "rec0tUTizGRNS5TYK",
+          "name": "Vicente Griego"
+        }
+      ],
+      "artistAssignment": "Co-led",
+      "gradeLevel": "7, 9-12",
+      "artForms": [
+        "Dance / Choreography",
+        "Music"
+      ],
+      "curriculumAreas": [
+        "Social Studies"
+      ],
+      "sessions": 8,
+      "notes": "Note: This residency has VERY limited availability and is booking very far in advance. Please inquire for more details.",
       "anchorId": ""
     },
     {
