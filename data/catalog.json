@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T16:28:05.345Z",
+  "generatedAt": "2026-09-18T19:40:40.866Z",
   "artists": [
     {
       "id": "rec0tmkEG7F8a1PJK",
@@ -173,7 +173,7 @@
         "id": "recuQdTxEE57EI1Qw",
         "name": "Kathleen Kingsley"
       },
-      "gradeLevel": " Pre-K",
+      "gradeLevel": " Pre-K & K",
       "artForms": [
         "Movement"
       ],
@@ -181,6 +181,47 @@
         "Social-Emotional Learning"
       ],
       "sessions": 6,
+      "anchorId": ""
+    },
+    {
+      "id": "rec6P2hBby79y65pf",
+      "title": "Erosion Shaping: How New Mexico's Landscape Emerged",
+      "isNew": false,
+      "description": "How did Ship Rock come to be? What are the Tent Rocks made of? How was Glorieta Mesa formed? In this residency students choreograph living landscapes, embodying the powerful force that wind and water played and continue to play in carving and shaping our state. This is an integrated dance/ science literacy residency for 4th-5th grades focused on sequencing and visualizing the forces of wind and water and their geographic implications for New Mexico. Students collaboratively translate the story of erosion in New Mexico into a dance “text” through the creative process of choreography.",
+      "teachingArtist": {
+        "id": "recuQkrZKtphhJlr4",
+        "name": "Randy Barron"
+      },
+      "gradeLevel": "4-6",
+      "artForms": [
+        "Dance / Choreography"
+      ],
+      "curriculumAreas": [
+        "Earth Science",
+        "Language Arts"
+      ],
+      "sessions": 6,
+      "anchorId": ""
+    },
+    {
+      "id": "rec8ULjGdvQWtozCT",
+      "title": "Shadow, Sound, & Story: Exploring the Wayang Tradition",
+      "isNew": true,
+      "description": "Step behind the screen and into one of the world's oldest living performance traditions. This residency introduces high school ensembles to wayang kulit, the Indonesian shadow puppet theater, and gamelan, the ensemble of gongs, metallophones, and drums that has accompanied wayang performances for centuries. Traditionally led by a dalang, a master puppeteer, narrator, and musical director all in one, wayang performances draw on epics like the Ramayana and Mahabharata, using carved leather puppets, firelight, and music to bring ancient stories to life.\n\nThe weeks after a major concert are often a natural lull for band, orchestra, and choir classes, but class time is still class time. This residency turns that downtime into an opportunity, allowing ensembles to channel their existing skills as performers and collaborators into an entirely new creative challenge. \n\nStudents will explore this tradition's cultural and spiritual roots before dividing into creative teams to reimagine a familiar story of their choosing. Some students will compose new music inspired by gamelan structures and instrumentation, others will design and construct shadow puppets, and others will shape the narration and staging. Because many ensemble classes are large, this structure allows every student to contribute meaningfully to a shared final performance, regardless of their primary instrument or role in the group.\n\nThis residency is designed with flexible pacing. While a 5-session structure gives students time to explore cultural context, compose, design, and rehearse, the scope can be scaled up or down to fit whatever time is available.",
+      "teachingArtist": {
+        "id": "recundPRwlCDfHoza",
+        "name": "Beth Ratay"
+      },
+      "gradeLevel": "9-12",
+      "artForms": [
+        "Music",
+        "Visual Art: Multimedia",
+        "Drama / Theater"
+      ],
+      "curriculumAreas": [
+        "Social Studies"
+      ],
+      "sessions": 5,
       "anchorId": ""
     },
     {
@@ -413,6 +454,26 @@
       ],
       "curriculumAreas": [
         "Social-Emotional Learning"
+      ],
+      "sessions": 5,
+      "anchorId": ""
+    },
+    {
+      "id": "recbKvfHThFJVdLKq",
+      "title": "Bringing Stories to Life through Shadows & Sound",
+      "isNew": true,
+      "description": "Lights down, shadows up! It’s storytime like you've never seen it before! In this residency, students step into the roles of storyteller, artist, and musician all at once, working together to bring a favorite folktale, myth, or beloved book to life. Using simple templates, they'll design their very own shadow puppets, giving familiar characters a whole new look.\n\nBut a good story needs more than just puppets. Students will also become sound wizards, picking up percussion instruments and experimenting with sound effects to match the action onstage. As the story unfolds behind the shadow screen, students will work together to retell it from start to finish, syncing their puppets, sounds, and voices into one show.\n\nBy the end of the residency, young performers will have worked with opera composer Beth Ratay to design their own puppets, explore how sound can tell a story, and discover the magic that happens when light, shadow, and music come together to bring a story to life.",
+      "teachingArtist": {
+        "id": "recundPRwlCDfHoza",
+        "name": "Beth Ratay"
+      },
+      "gradeLevel": "Pre-K to 2",
+      "artForms": [
+        "Music",
+        "Visual Art: Multimedia"
+      ],
+      "curriculumAreas": [
+        "Language Arts"
       ],
       "sessions": 5,
       "anchorId": ""
