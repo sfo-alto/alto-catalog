@@ -205,6 +205,20 @@
       line-height: 1.65;
       margin-bottom: 10px;
     }
+    .residency-note {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  background: var(--sfo-gold-pale);
+  border-left: 3px solid var(--sfo-gold);
+  padding: 8px 10px;
+  margin: 0 0 12px;
+  border-radius: 3px;
+}
+
+.residency-note strong {
+  color: var(--sfo-dark);
+}
     .dl {
       display: grid;
       grid-template-columns: 95px 1fr;
@@ -488,38 +502,85 @@ function formatBio(bio) {
   return paragraphs.map(p => `<p>${p}</p>`).join("");
 }
 
+function formatArtistLinks(r) {
+  const artists = r.ars || [];
+
+  const links = artists.map(a =>
+    `<a class="artist-link" href="#${artistAnchorId(a.id, a.name)}">${escapeHtml(a.name)}</a>`
+  );
+
+  if (!links.length) return "TBD";
+
+  if (r.assignment === "Variable") {
+    if (links.length === 1) {
+      return `Assigned from: ${links[0]}`;
+    }
+
+    if (links.length === 2) {
+      return `Assigned from: ${links[0]} or ${links[1]}`;
+    }
+
+    return `Assigned from: ${links.slice(0, -1).join(", ")}, or ${links.at(-1)}`;
+  }
+
+  if (r.assignment === "Co-led") {
+    if (links.length === 1) return links[0];
+    if (links.length === 2) return `${links[0]} &amp; ${links[1]}`;
+
+    return `${links.slice(0, -1).join(", ")} &amp; ${links.at(-1)}`;
+  }
+
+  return links.join(", ");
+}
+
 function populate() {
   const gs = document.getElementById("f-grade");
   gs.innerHTML = '<option value="">All grades</option>';
+
   GRADE_OPTIONS.forEach(g => {
     const o = document.createElement("option");
-    o.value = g.v; o.textContent = g.l;
+    o.value = g.v;
+    o.textContent = g.l;
     gs.appendChild(o);
   });
 
   const ss = document.getElementById("f-subject");
   ss.innerHTML = '<option value="">All subjects</option>';
-  [...new Set(R.flatMap(r=>r.s))].sort().forEach(s => {
-    const o = document.createElement("option");
-    o.value = s; o.textContent = SMAP[s] || s;
-    ss.appendChild(o);
-  });
+
+  [...new Set(R.flatMap(r => r.s))]
+    .sort()
+    .forEach(s => {
+      const o = document.createElement("option");
+      o.value = s;
+      o.textContent = SMAP[s] || s;
+      ss.appendChild(o);
+    });
 
   const as = document.getElementById("f-art");
   as.innerHTML = '<option value="">All art forms</option>';
-  [...new Set(R.flatMap(r=>r.a))].sort().forEach(a => {
-    const o = document.createElement("option");
-    o.value = a; o.textContent = a;
-    as.appendChild(o);
-  });
+
+  [...new Set(R.flatMap(r => r.a))]
+    .sort()
+    .forEach(a => {
+      const o = document.createElement("option");
+      o.value = a;
+      o.textContent = a;
+      as.appendChild(o);
+    });
 
   const ar = document.getElementById("f-artist");
   ar.innerHTML = '<option value="">All artists</option>';
-  [...new Set(R.map(r=>r.ar))].sort().forEach(a => {
-    const o = document.createElement("option");
-    o.value = a; o.textContent = a;
-    ar.appendChild(o);
-  });
+
+  [...new Set(
+    R.flatMap(r => r.ars.map(a => a.name))
+  )]
+    .sort()
+    .forEach(name => {
+      const o = document.createElement("option");
+      o.value = name;
+      o.textContent = name;
+      ar.appendChild(o);
+    });
 }
 
 function render() {
@@ -527,137 +588,242 @@ function render() {
   const sv = document.getElementById("f-subject").value;
   const av = document.getElementById("f-art").value;
   const arv = document.getElementById("f-artist").value;
+
   const gvNum = gv === "" ? null : parseInt(gv, 10);
 
   const filtered = R.filter(r => {
     if (gvNum !== null) {
-      if (r.gMin === null || gvNum < r.gMin || gvNum > r.gMax) return false;
+      if (
+        r.gMin === null ||
+        gvNum < r.gMin ||
+        gvNum > r.gMax
+      ) return false;
     }
+
     if (sv && !r.s.includes(sv)) return false;
     if (av && !r.a.includes(av)) return false;
-    if (arv && r.ar !== arv) return false;
+
+    if (
+      arv &&
+      !r.ars.some(artist => artist.name === arv)
+    ) return false;
+
     return true;
   });
 
-  document.getElementById("count").textContent = `${filtered.length} of ${R.length} residencies`;
+  document.getElementById("count").textContent =
+    `${filtered.length} of ${R.length} residencies`;
+
   const grid = document.getElementById("grid");
   grid.innerHTML = "";
+
   if (!filtered.length) {
-    grid.innerHTML = '<div class="none">No residencies match the selected filters.</div>';
+    grid.innerHTML =
+      '<div class="none">No residencies match the selected filters.</div>';
     return;
   }
+
   const wrap = document.createElement("div");
   wrap.className = "grid";
+
   filtered.sort((a, b) => a.t.localeCompare(b.t));
+
   filtered.forEach(r => {
     const card = document.createElement("div");
     card.className = "card";
+
+    const artistLabel =
+      r.assignment === "Co-led" ? "Artists" : "Artist";
+
+    const noteHtml = r.n.trim()
+      ? `<div class="residency-note"><strong>Please note:</strong> ${escapeHtml(r.n).replace(/\n/g, "<br>")}</div>`
+      : "";
+
     card.innerHTML = `
       <div class="card-top">
         <div class="card-left">
-          <div class="card-title">${escapeHtml(r.t)}${r.isNew ? '<span class="new-badge">New</span>' : ''}</div>
+          <div class="card-title">
+            ${escapeHtml(r.t)}
+            ${r.isNew ? '<span class="new-badge">New</span>' : ''}
+          </div>
+
           <div class="meta-row">
             <span class="grade-tag">${gradeRangeLabel(r.gMin, r.gMax)}</span>
-            ${r.a.slice(0,2).map(x=>`<span class="art-tag">${escapeHtml(x)}</span>`).join("")}
+            ${r.a
+              .slice(0, 2)
+              .map(x =>
+                `<span class="art-tag">${escapeHtml(x)}</span>`
+              )
+              .join("")}
           </div>
         </div>
+
         <span class="chevron">&#8964;</span>
       </div>
+
       <div class="detail">
         <p class="desc">${escapeHtml(r.d)}</p>
+
+        ${noteHtml}
+
         <div class="dl">
           <span class="dt">Subjects</span>
-          <span class="dd"><span class="stags">${r.s.map(x=>`<span class="stag ${SCLS[x]||''}">${escapeHtml(SMAP[x]||x)}</span>`).join("")}</span></span>
+          <span class="dd">
+            <span class="stags">
+              ${r.s
+                .map(x =>
+                  `<span class="stag ${SCLS[x] || ''}">${escapeHtml(SMAP[x] || x)}</span>`
+                )
+                .join("")}
+            </span>
+          </span>
+
           <span class="dt">Art forms</span>
           <span class="dd">${escapeHtml(r.a.join(", "))}</span>
-          <span class="dt">Artist</span>
-          <span class="dd"><a class="artist-link" href="#${artistAnchorId(r.arId, r.ar)}">${escapeHtml(r.ar)}</a></span>
+
+          <span class="dt">${artistLabel}</span>
+          <span class="dd">${formatArtistLinks(r)}</span>
+
           <span class="dt">Sessions</span>
-          <span class="dd"><span class="sessions-dot"></span>${r.sess ?? "\u2014"}</span>
+          <span class="dd">
+            <span class="sessions-dot"></span>${r.sess ?? "\u2014"}
+          </span>
         </div>
-        <a class="apply-link" href="${INFO_URL}" target="_blank">How to apply for this residency &rarr;</a>
-      </div>`;
+
+        <a class="apply-link" href="${INFO_URL}" target="_blank">
+          How to apply for this residency &rarr;
+        </a>
+      </div>
+    `;
+
     card.addEventListener("click", e => {
       if (e.target.tagName === "A") return;
       card.classList.toggle("expanded");
     });
+
     wrap.appendChild(card);
   });
+
   grid.appendChild(wrap);
 }
 
 function renderArtists() {
   const grid = document.getElementById("artists-grid");
+
   if (!ARTISTS.length) {
-    grid.innerHTML = '<div class="none">No teaching artist bios available yet.</div>';
+    grid.innerHTML =
+      '<div class="none">No teaching artist bios available yet.</div>';
     return;
   }
+
   grid.innerHTML = ARTISTS
     .slice()
     .sort((a, b) => a.name.localeCompare(b.name))
     .map(a => `
       <div class="artist-card" id="${artistAnchorId(a.id, a.name)}">
+
         ${a.photo
           ? `<img class="artist-photo" src="data/${a.photo}" alt="${escapeHtml(a.name)}">`
-          : `<div class="artist-photo artist-photo-placeholder">${escapeHtml(initials(a.name))}</div>`}
+          : `<div class="artist-photo artist-photo-placeholder">${escapeHtml(initials(a.name))}</div>`
+        }
+
         <div class="artist-info">
           <div class="artist-name">${escapeHtml(a.name)}</div>
-          ${a.artForm ? `<div class="artist-artform">${escapeHtml(a.artForm)}</div>` : ""}
+
+          ${a.artForm
+            ? `<div class="artist-artform">${escapeHtml(a.artForm)}</div>`
+            : ""
+          }
+
           <div class="artist-bio">${formatBio(a.bio)}</div>
         </div>
-      </div>`)
+      </div>
+    `)
     .join("");
 }
 
-document.getElementById("clear-btn").addEventListener("click", () => {
-  ["f-grade","f-subject","f-art","f-artist"].forEach(id => document.getElementById(id).value="");
-  render();
-});
-["f-grade","f-subject","f-art","f-artist"].forEach(id =>
-  document.getElementById(id).addEventListener("change", render)
-);
+document
+  .getElementById("clear-btn")
+  .addEventListener("click", () => {
+
+    ["f-grade", "f-subject", "f-art", "f-artist"]
+      .forEach(id =>
+        document.getElementById(id).value = ""
+      );
+
+    render();
+  });
+
+["f-grade", "f-subject", "f-art", "f-artist"]
+  .forEach(id =>
+    document
+      .getElementById(id)
+      .addEventListener("change", render)
+  );
 
 async function loadData() {
   try {
-    const res = await fetch(DATA_URL, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const res = await fetch(DATA_URL, {
+      cache: "no-store"
+    });
+
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}`);
+    }
+
     const json = await res.json();
 
     ARTISTS = json.artists || [];
+
     R = (json.residencies || []).map(r => {
-      const { min, max } = parseGradeLevel(r.gradeLevel);
+      const { min, max } =
+        parseGradeLevel(r.gradeLevel);
+
+      /*
+       * Prefer the new plural teachingArtists array.
+       * The singular fallback keeps the page compatible
+       * with older catalog.json files if necessary.
+       */
+      const artists =
+        r.teachingArtists ||
+        (r.teachingArtist ? [r.teachingArtist] : []);
+
       return {
         id: r.id,
         t: r.title,
         isNew: !!r.isNew,
         d: r.description,
+        n: r.notes || "",
         s: r.curriculumAreas || [],
         a: r.artForms || [],
-        arId: r.teachingArtist?.id || null,
-        ar: r.teachingArtist?.name || "TBD",
+        ars: artists,
+        assignment: r.artistAssignment || "Solo",
         sess: r.sessions,
         gMin: min,
         gMax: max
       };
     });
 
-    document.getElementById("updated-at").textContent = json.generatedAt
-      ? `Catalog last updated ${new Date(json.generatedAt).toLocaleString()}`
-      : "";
+    document.getElementById("updated-at").textContent =
+      json.generatedAt
+        ? `Catalog last updated ${new Date(json.generatedAt).toLocaleString()}`
+        : "";
 
     populate();
     renderArtists();
     render();
+
   } catch (err) {
-    document.getElementById("grid").innerHTML = `<div class="none">
-      Couldn't load the catalog (${escapeHtml(err.message)}). If you're opening this file
-      directly from your computer, view it through a local server or the published
-      GitHub Pages URL instead &mdash; browsers block local JSON fetches from a plain
-      double-clicked HTML file.
-    </div>`;
+    document.getElementById("grid").innerHTML =
+      `<div class="none">
+        Couldn't load the catalog (${escapeHtml(err.message)}).
+        If you're opening this file directly from your computer,
+        view it through a local server or the published GitHub Pages
+        URL instead &mdash; browsers block local JSON fetches from
+        a plain double-clicked HTML file.
+      </div>`;
   }
 }
-
 loadData();
 </script>
 </body>
