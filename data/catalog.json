@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T21:32:44.628Z",
+  "generatedAt": "2026-10-04T22:37:17.731Z",
   "artists": [
     {
       "id": "rec0tUTizGRNS5TYK",
@@ -63,6 +63,13 @@
       "artForm": "Visual Art: Multimedia",
       "bio": "Delia St. Louis is an educator with a Master of Science in Education. She has classroom teaching experience dating back to 1999 in the New York City Public Schools and later starting in 2013 at Albuquerque Public Schools. She’s also the founder of Learning Without The Noise, a practice in which children learn tools and exercises that give them a unique advantage in learning and in life.\n",
       "photo": "photos/delia-st-louis-oEIRb6.jpg"
+    },
+    {
+      "id": "recaU9XsjT5EqnIhX",
+      "name": "Noah Mertz",
+      "artForm": "Visual Art: Multimedia",
+      "bio": "Noah Mertz grew up in the northeast U.S., and currently resides in New Mexico, where he helps run we.grow.eco, teaches French, and works as a translator and writer. He studied literature, darkroom photography, and music at Wesleyan, then veered into German philosophy in a Comparative Literature MA at UNM. He also worked as an environmental educator at a non-profit outdoor school in the mountains of California, facilitating both ropes course team building and experiential ecology programs. There, he met Chauncey Foster; the two co-founded we.grow.eco in 2021 with the walk across the U.S.\n",
+      "photo": "photos/noah-mertz-EqnIhX.jpg"
     },
     {
       "id": "recakSBljHNaAXUel",
@@ -538,6 +545,35 @@
       ],
       "sessions": 5,
       "notes": "This residency is suitable for all humanities classes.",
+      "anchorId": ""
+    },
+    {
+      "id": "recRizY3vRKQGIL5a",
+      "title": "Deconstructive Engineering through Clothing Design",
+      "isNew": true,
+      "description": "Learn how to operate a sewing machine using reclaimed textiles! Teams of students use the engineering design process to alter or create their own clothes (and beyond) using a sewing machine and textile scraps donated by the community. Students will develop practical, technical skills in sewing, pattern-making, and fabric manipulation, while applying engineering concepts to real-world contexts. At the same time, they will be working collaboratively to problem-solve and realize a creative vision.",
+      "teachingArtist": {
+        "id": "recaU9XsjT5EqnIhX",
+        "name": "Noah Mertz"
+      },
+      "teachingArtists": [
+        {
+          "id": "recaU9XsjT5EqnIhX",
+          "name": "Noah Mertz"
+        }
+      ],
+      "artistAssignment": "Solo",
+      "gradeLevel": "6-12",
+      "artForms": [
+        "Visual Art: Multimedia"
+      ],
+      "curriculumAreas": [
+        "Engineering",
+        "Social Studies",
+        "Earth Science"
+      ],
+      "sessions": 5,
+      "notes": "",
       "anchorId": ""
     },
     {
